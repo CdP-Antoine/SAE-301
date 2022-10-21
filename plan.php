@@ -5,12 +5,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Mon title Description </title>
+	<title> Mon title Plan </title>
 
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<link href="Description/general.css" rel="stylesheet">
+	<link href="Plan/general.css" rel="stylesheet">
 
 	<script src="script.js"></script>
 
@@ -23,7 +23,7 @@
 </header>
 
 <main>
-	<?php require_once("Description/incl.php") ;?>
+	<?php require_once("Plan/incl.php") ;?>
 </main>
 
 <footer>

@@ -1,1 +1,15 @@
 /* Fichier Général Index */
+
+@import url("Commun-Aux-Pages/header.css") ;
+@import url("Commun-Aux-Pages/header.css") ;
+
+@import url("Index/accueil.css") ;
+@import url("Index/factions-col.css") ;
+@import url("Index/frise.css") ;
+@import url("Index/intro.css") ;
+@import url("Index/slider-lieux.css") ;
+
+
+main {
+
+}
