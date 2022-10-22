@@ -11,6 +11,7 @@
 	<meta name="author" content="">
 
 	<link href="Deroule/general.css" rel="stylesheet">
+	<link href="Commun-Aux-Pages/header.css" rel="stylesheet">
 
 	<script src="script.js"></script>
 
@@ -19,7 +20,7 @@
 <body>
 
 <header>
-	<?php require_once("Commun-Aux-Pages/footer.php") ;?>
+	<?php require_once("Commun-Aux-Pages/header.php") ;?>
 </header>
 
 <main>

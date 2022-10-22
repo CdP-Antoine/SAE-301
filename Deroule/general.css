@@ -1,12 +1,12 @@
 /* Fichier Général Deroule */
 
-@import url("Commun-Aux-Pages/header.css") ;
-@import url("Commun-Aux-Pages/header.css") ;
+@import url("../Commun-Aux-Pages/header.css") ;
+@import url("../Commun-Aux-Pages/footer.css") ;
 
-@import url("Deroule/frise.css") ;
-@import url("Deroule/attaque-chateau.css") ;
-@import url("Deroule/recap.css") ;
-@import url("Deroule/petits.css") ;
+@import url("frise.css") ;
+@import url("attaque-chateau.css") ;
+@import url("recap.css") ;
+@import url("petits.css") ;
 
 
 main {

@@ -19,7 +19,7 @@
 <body>
 
 <header>
-	<?php require_once("Commun-Aux-Pages/footer.php") ;?>
+	<?php require_once("Commun-Aux-Pages/header.php") ;?>
 </header>
 
 <main>

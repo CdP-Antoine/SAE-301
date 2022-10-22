@@ -1,9 +1,9 @@
 /* Fichier Général Formulaire */
 
-@import url("Commun-Aux-Pages/header.css") ;
-@import url("Commun-Aux-Pages/header.css") ;
+@import url("../Commun-Aux-Pages/header.css") ;
+@import url("../Commun-Aux-Pages/footer.css") ;
 
-@import url("Formulaire/etapes.css") ;
+@import url("etapes.css") ;
 
 main {
 

@@ -1,5 +1,5 @@
 /* Mentions > content */
 
-#content {
-
+#content h2 {
+    background-color: yellow;
 }
