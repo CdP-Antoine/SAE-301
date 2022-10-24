@@ -5,7 +5,7 @@
     background-color: yellow;
 }
 
-#accueil .flexDebut {
+#accueil {
     display: flex;
 
     text-align: center;
