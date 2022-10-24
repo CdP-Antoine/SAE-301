@@ -3,6 +3,8 @@
 
 #accueil h2 {
     background-color: yellow;
+    margin: 5vmax 3vmax 5vmax 3vmax;
+    font-size: 3vmax;
 }
 
 #accueil {
@@ -12,11 +14,14 @@
     justify-content: center;
     align-items: center;
 
-    background: url(../Illustrations/Index/test.png);
-    background-size: contain;
+    background: url(../Illustrations/Index/test.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
-
+    background-origin: center;
 
     height: auto;
     width: auto;
+
+    margin-left: 1vmax;
+    margin-right: 1vmax;
 }
