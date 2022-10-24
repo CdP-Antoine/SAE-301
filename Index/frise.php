@@ -1,6 +1,5 @@
 <!-- Index > frise.php -->
 
-<link href="frise.css" rel="stylesheet">
 
 <div>
 
