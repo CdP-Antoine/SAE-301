@@ -14,14 +14,11 @@
     justify-content: center;
     align-items: center;
 
-    background: url(../Illustrations/Index/test.jpg);
+    background: url(../Illustrations/Index/provisoire.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-origin: center;
 
     height: auto;
     width: auto;
-
-    margin-left: 1vmax;
-    margin-right: 1vmax;
 }
