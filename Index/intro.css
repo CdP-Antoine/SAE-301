@@ -31,15 +31,12 @@
   padding: 5px;
   margin: 5px;
   width: 17vmax;
-  height: 2.5vmax;
   transition: all 0.5s;
   cursor: pointer;
-}
-#intro a:hover {
-  background-color: #ffcf66;
+  margin: 0;
+  font-size: 2.5vmax; 
 }
 
-#intro h3 {
-  margin: 0;
-  font-size: 2.5vmax;
+#intro a:hover {
+  background-color: #ffcf66;
 }
