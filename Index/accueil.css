@@ -4,3 +4,19 @@
 #accueil h2 {
     background-color: yellow;
 }
+
+#accueil .flexDebut {
+    display: flex;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background: url(../Illustrations/Index/test.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+    height: auto;
+    width: auto;
+}
