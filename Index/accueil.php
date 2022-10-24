@@ -1,3 +1,3 @@
 <!-- Index > Accueil -->
 
-<h2> Test Accueil </h2>
+<h2>Le Jeu de Rôle Grandeur Nature du Puy-en-Velay !</h2>
