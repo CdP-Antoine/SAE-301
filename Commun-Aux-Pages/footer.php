@@ -1,5 +1,4 @@
 <!-- Footer -->
-<link href="footer.css" rel="stylesheet">
 
 <ul>
 

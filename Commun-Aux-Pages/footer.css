@@ -4,7 +4,7 @@ footer h2 {
     background-color: teal;
 }
 
-ul {
+footer ul {
     display: flex;
     list-style: none; /* enlever les puces */
     margin: 0; /* enlever les marges automatiques */

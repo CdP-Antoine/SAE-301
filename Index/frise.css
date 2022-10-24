@@ -4,3 +4,12 @@
 #frise {
     background-color: aquamarine;
 }
+
+#frise div{
+    display: flex;
+    justify-content: center;
+}
+
+#frise figcaption{
+    text-align: center;
+}
