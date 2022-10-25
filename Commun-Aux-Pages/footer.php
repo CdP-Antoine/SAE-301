@@ -1,7 +1,7 @@
 <!-- Footer -->
 
-<ul>
 
+<ul>
 
     <li><a href="plan.php">Plan du site</a></li>
     <li>

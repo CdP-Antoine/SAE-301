@@ -1,4 +1,8 @@
 /* footer */
+
+footer h2 {
+    background-color: #CBBF7A;
+    border-radius: 20px;
 /*Image du footer*/
 footer img {
     width: 25vw;
