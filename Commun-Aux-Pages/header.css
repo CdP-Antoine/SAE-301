@@ -7,21 +7,15 @@ body {
 
 /* img ticket et logo*/
 header .ticket {
-    height: 12vw;
-    padding: 1vw;
+    height: 8vw;
+    padding: 0;
 }
 header .logo{
-    height: 12vw;
+    height: 10vw;
+    padding: 0;
 }
 
-/*Couleur décoration*/
-header a {
-    text-decoration: none;
-    color: black;
-}
-header a:visited {
-    color: black;
-}
+/*Les points chiants*/
 header li {
     list-style-type: none;
 }
@@ -31,7 +25,7 @@ header .ListeGlobale {
     background-color: #CBBF7A;
     display: flex;
 
-    align-items: center;
+    align-items: top;
     text-align: center;
     justify-content: space-evenly;
 
@@ -41,31 +35,46 @@ header .ListeGlobale {
     border-radius: 0 0 30px 30px;
 }
 
+/* A, AA, AAA, AAAA !!!!*/
+header a {
+    color: black;
+    text-decoration: none;
+}
+header a:visited{
+    color: black;
+}
+
 /* Choix Principal */
 header .ChoixPrincipal {
     justify-content: center;
+    padding: 1vw;
+
+    font-size: 2vw;
+    font-weight: bold;
+
+    gap: 2px;
 }
 header .ChoixPrincipal:hover {
     background-color: #9F956C;
+    border-radius: 0 0 20px 20px;
 }
 
 /* Lien Principal */
 header .LienPrincipal {
-    
+    padding: 5px;
 }
+
 
 /* Lien Secondaire */
 header .LienSecondaire {
-
+    font-size: 1.5vw;
+    padding: 2px;
+    margin: 0;
 }
-
-
-
-
-
-
-.oui {
+header .LienSecondaire:hover {
     background-color: #74654e;
-    background-color: #9F956C;
-    background-color: #CBBF7A;
+    border-radius: 5px;
+}
+header .LienSecondaire:visited{
+    color: rgb(70, 70, 70);
 }
