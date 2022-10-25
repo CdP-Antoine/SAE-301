@@ -2,9 +2,8 @@
 
 <nav>
     <ul>
-        <!-- Logo et Titre -->
-        <li><a href="index.php"><img src="../Illustrations/test.png" alt="Logo du Titre"></a></li>
-        <li><a href="index.php"><h1>La Guerre de l'Oiseau</h1></a></li>
+        <!-- Logo avec titre inclus -->
+        <li><a href="index.php"><img src="Illustrations/Commun-Aux-Pages/logoheader.png" alt="Logo du Titre" class="logo"></a></li>
 
         <!-- Menu Description -->
         <li>
