@@ -1,32 +1,27 @@
 <!-- Header -->
 
 <nav>
-    <ul>
-        <!-- Logo et Titre -->
-        <li><a href="index.php"><img src="../Illustrations/test.png" alt="Logo du Titre"></a></li>
-        <li><a href="index.php"><h1>La Guerre de l'Oiseau</h1></a></li>
+    <ul class="ListeGlobale">
+        <!-- Logo avec titre inclus -->
+        <li class="ChoixPrincipal"><a href="index.php"><img class="logo" src="Illustrations/Commun-Aux-Pages/logoheader.png" alt="Logo du Titre"></a></li>
 
         <!-- Menu Description -->
-        <li>
-            <a href="description.php">Explications Histoire</a>
-            <ul>
-                <li><a href="description.php#cestQuoiLeGn">C'est quoi le G.N. ?</a></li>
-                <li><a href="description.php#clans">Les 4 clans</a></li>
-                <li><a href="description.php#lieux">Les 368 Lieux</a></li>
-            </ul>
+        <li class="ChoixPrincipal">
+            <a class="LienPrincipal" href="description.php">Explications<br>Histoire</a><br>
+            <a class="LienSecondaire" href="description.php#cestQuoiLeGn">C'est quoi le G.N. ?</a><br>
+            <a class="LienSecondaire" href="description.php#clans">Les 4 clans</a><br>
+            <a class="LienSecondaire" href="description.php#lieux">Les 368 Lieux</a>
         </li>
 
         <!-- Menu Déroulé -->
-        <li>
-            <a href="deroule.php">Activités Planning</a>
-            <ul>
-                <li><a href="description.php#cestQuoiLeGn"> Évènemements</a></li>
-                <li><a href="description.php#clans">Planning</a></li>
-                <li><a href="description.php#lieux">P'tits Guerriers</a></li>
-            </ul>
+        <li class="ChoixPrincipal">
+            <a class="LienPrincipal" href="deroule.php">Activités<br>Planning</a><br>
+            <a class="LienSecondaire" href="deroule.php#attaque-chateau"> Évènemements</a><br>
+            <a class="LienSecondaire" href="deroule.php#recap">Planning</a><br>
+            <a class="LienSecondaire" href="deroule.php#petits">P'tits Guerriers</a>
         </li>
 
         <!-- Menu Formulaire -->
-        <li><a href="formulaire.php"><img class="ticket" src="Illustrations/Commun-Aux-Pages/ticket.png" alt="Icone ticket"></a></li>
+        <li class="ChoixPrincipal"><a href="formulaire.php"><img class="ticket" src="Illustrations/Commun-Aux-Pages/ticket.png" alt="Icone ticket"></a></li>
     </ul>
 </nav>

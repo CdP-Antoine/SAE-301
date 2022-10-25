@@ -1,11 +1,19 @@
 /* Fichier Général Plan */
 
-@import url("../Commun-Aux-Pages/header.css") ;
-@import url("../Commun-Aux-Pages/footer.css") ;
-
-@import url("content.css") ;
+@import url("../Commun-Aux-Pages/header.css");
+@import url("../Commun-Aux-Pages/footer.css");
 
 main {
+    display:flex;
+    justify-content: center;
+    padding : 3% 0;
+    text-align: justify;
+}
 
+main ul>li{
+    margin-bottom: 20%;
+}
 
+main ul>li a {
+    text-decoration:none; 
 }

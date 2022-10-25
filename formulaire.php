@@ -5,11 +5,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Mon title formulaire </title>
+	<title> Inscription | La Guerre de l'Oiseau </title>
 
 	<meta name="description" content="">
 	<meta name="author" content="">
-
+	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/favicon.png"/>
 	<link href="Formulaire/general.css" rel="stylesheet">
 
 	<script src="script.js"></script>
@@ -23,7 +23,25 @@
 </header>
 
 <main>
-	<?php require_once("Formulaire/incl.php") ;?>
+
+<form action="" method="POST">
+	<section id="etape0">
+		<h2> Pour commencer l'inscription </h2>
+	</section>
+
+	<section id="etape1">
+		<h2> Etape 1 </h2>
+	</section>
+
+	<section id="etape2">
+		<h2> Etape 2 </h2>
+	</section>
+
+	<section id="etape3">
+		<h2> Etape 3 </h2>
+	</section>
+</form>
+
 </main>
 
 <footer>
