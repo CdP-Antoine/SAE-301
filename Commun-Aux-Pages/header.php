@@ -2,7 +2,7 @@
 
 <nav>
     <ul>
-        <!-- Logo et Titre -->
+        <!-- Logo avec titre inclus -->
         <li><a href="index.php"><img src="Illustrations/Commun-Aux-Pages/logoheader.png" alt="Logo du Titre" class="logo"></a></li>
 
         <!-- Menu Description -->
