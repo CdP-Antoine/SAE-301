@@ -1,5 +1,48 @@
 /* Deroule > attaque-chateau */
 
+/* Mise en page globale*/
+#attaque-chateau>div{
+    width: 70vw;
+}
+#attaque-chateau {
+    display: flex;
+    justify-content: center;
+}
+
 #attaque-chateau h2 {
     background-color: yellow;
+}
+
+#attaque-chateau .troislignes{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#attaque-chateau .troislignes>div{
+    width: 25%;
+}
+/* Liste*/
+#attaque-chateau ul li{
+    padding-bottom: 2%;
+}
+
+
+
+/*Noir et blanc quand le clan n'est pas là*/
+#attaque-chateau .paspresent{
+    filter: grayscale(10);
+}
+
+/*Images*/
+#attaque-chateau img{
+    width: 25%;
+    margin:10%;
+}
+#attaque-chateau .lieu{
+    width:100%;
+}
+
+#attaque-chateau .clans{
+    display:flex;
+    flex-wrap: wrap;
 }
