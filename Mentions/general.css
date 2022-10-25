@@ -1,11 +1,14 @@
 /* Fichier Général Mentions */
 
-@import url("../Commun-Aux-Pages/header.css") ;
-@import url("../Commun-Aux-Pages/footer.css") ;
-
-@import url("content.css") ;
+@import url("../Commun-Aux-Pages/header.css");
+@import url("../Commun-Aux-Pages/footer.css");
 
 main {
-
-
+    display:flex;
+    justify-content: center;
+    padding : 2% 0;
+    text-align: justify;
+}
+main>div {
+    width: 70vw;
 }
