@@ -4,7 +4,7 @@
 <script type="text/javascript" src="slider-lieux.js"></script>
 <h2> Test Slider-Lieux </h2>
 
-<<div class="CSSgal">
+<div class="CSSgal">
 
 <!-- Don't wrap targets in parent -->
 <s id="s1"></s> 

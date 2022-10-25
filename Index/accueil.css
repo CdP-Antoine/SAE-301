@@ -3,4 +3,22 @@
 
 #accueil h2 {
     background-color: yellow;
+    margin: 5vmax 3vmax 5vmax 3vmax;
+    font-size: 3vmax;
+}
+
+#accueil {
+    display: flex;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background: url(../Illustrations/Index/provisoire.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-origin: center;
+
+    height: auto;
+    width: auto;
 }

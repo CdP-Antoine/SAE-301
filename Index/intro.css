@@ -2,5 +2,41 @@
 
 
 #intro {
-    background-color: springgreen;
+  background-color: springgreen;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  height: auto;
+  width: auto;
+
+  margin-left: 1vmax;
+  margin-right: 1vmax;
+}
+
+#intro a{
+  display: inline-block;
+  background-color: #ee8f14;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  width: 17vmax;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0;
+  font-size: 2.5vmax; 
+}
+
+#intro a:hover {
+  background-color: #ffcf66;
 }
