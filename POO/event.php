@@ -81,10 +81,10 @@ class Event {
                 <div> <!--3eme bloc : Clans -->
                     <h3>CLANS :</h3>
                     <div class="clans"> <!--images de clans -->
-                        <img src="Illustrations/Deroule/rondclantest.png" '.$exist[1].'>
-                        <img src="Illustrations/Deroule/rondclantest.png" '.$exist[2].'>
-                        <img src="Illustrations/Deroule/rondclantest.png" '.$exist[3].'>
-                        <img src="Illustrations/Deroule/rondclantest.png" '.$exist[4].'>
+                        <img src="Illustrations/Deroule/rondmorafen.png" '.$exist[1].'alt="Morafen">
+                        <img src="Illustrations/Deroule/rondliostra.png" '.$exist[2].'alt="Liostra">
+                        <img src="Illustrations/Deroule/rondpaylen.png" '.$exist[3].'alt="Paylen">
+                        <img src="Illustrations/Deroule/rondviguera.png" '.$exist[4].'alt="Viguera">
                     </div>
                 </div>
             </div>
