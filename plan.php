@@ -5,11 +5,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Mon title Plan </title>
+	<title>Plan du site | La Guerre de l'Oiseau</title>
 
 	<meta name="description" content="">
 	<meta name="author" content="">
-
+	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/favicon.png"/>
 	<link href="Plan/general.css" rel="stylesheet">
 
 	<script src="script.js"></script>
@@ -23,7 +23,17 @@
 </header>
 
 <main>
-	<?php require_once("Plan/incl.php") ;?>
+	<div>
+		<h2>Plan du site</h2>
+		<ul>
+			<li><a href="index.php">Accueil</a></li>
+			<li><a href="description.php">L'histoire</a></li>
+			<li><a href="deroule.php">Déroulé</a></li>
+			<li><a href="formulaire.php">Inscription</a></li>
+			<li><a href="plan.php">Plan du site</a></li>
+			<li><a href="mentions.php">Mentions légales</a></li>
+		</ul>
+	</div>
 </main>
 
 <footer>

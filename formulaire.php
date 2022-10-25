@@ -5,11 +5,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Mon title formulaire </title>
+	<title> Inscription | La Guerre de l'Oiseau </title>
 
 	<meta name="description" content="">
 	<meta name="author" content="">
-
+	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/favicon.png"/>
 	<link href="Formulaire/general.css" rel="stylesheet">
 
 	<script src="script.js"></script>

@@ -4,12 +4,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Mon title </title>
+	<title>Accueil | La Guerre de l'Oiseau</title>
 
 	<meta charset="UTF-8">
 	<meta name="description" content="">
 	<meta name="author" content="">
-
+	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/favicon.png"/>
 	<link href="Index/general.css" rel="stylesheet">
 
 	<script src="script.js"></script>

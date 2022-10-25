@@ -10,11 +10,11 @@ $event = new Event(3) ;
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Mon title Deroule </title>
+	<title> Déroulé de l'évènement | La Guerre de l'Oiseau </title>
 
 	<meta name="description" content="">
 	<meta name="author" content="">
-
+	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/blasoncouleur.png"/>
 	<link href="Deroule/general.css" rel="stylesheet">
 	<link href="Commun-Aux-Pages/header.css" rel="stylesheet">
 
