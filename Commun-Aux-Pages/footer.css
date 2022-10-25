@@ -3,6 +3,7 @@
 footer h2 {
     background-color: #CBBF7A;
     border-radius: 20px;
+}
 /*Image du footer*/
 footer img {
     width: 25vw;
@@ -14,5 +15,26 @@ footer ul {
     margin: 0; /* enlever les marges automatiques */
     justify-content: space-evenly;
     align-items: center;
+
+    background-color: #CBBF7A;
+    border-radius: 30px 30px 0 0;
 }
  
+footer a {
+    color: black;
+    font-size: 2vw;
+}
+footer a:visited {
+    color: black;
+}
+footer .logoFooter:hover {
+    background-color: #9F956C;
+    border-radius: 20px 20px 0 0;
+}
+footer .lienFooter {
+    padding: 5px;
+}
+footer .lienFooter:hover {
+    background-color: #9F956C;
+    border-radius: 5px;
+}
