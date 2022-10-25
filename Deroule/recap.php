@@ -1,3 +1,4 @@
 <!-- Deroule > recap -->
 
-<h2> Test Recap </h2>
+<h3>Planning</h3>
+<img src="Illustrations/test.png">
