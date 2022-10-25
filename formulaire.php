@@ -13,7 +13,7 @@
 
 	<link href="Formulaire/general.css" rel="stylesheet">
 
-	<script src="script.js"></script>
+	<script src="Formulaire/scriptForm.js" defer></script>
 
 
 </head>
@@ -35,7 +35,7 @@
 			<li> Lire et accepter les conditions d'accès à l'événement </li>
 		</ul>
 
-		<button> Commencer l'inscription </button>
+		<button id="0to1"> Commencer l'inscription </button>
 	</section>
 
 	<section id="etape1">
@@ -54,8 +54,8 @@
 			<input type="text" name="mail" placeholder="example@gmail.com">
 		</div>
 
-		<button> Etape précédente </button>
-		<button> Passer à l'étape suivante </button>
+		<button id="1to0"> Etape précédente </button>
+		<button id="1to2"> Passer à l'étape suivante </button>
 	</section>
 
 	<section id="etape2">
@@ -93,8 +93,8 @@
 			</div>
 		</div>
 
-		<button> Etape précédente </button>
-		<button> Passer à l'étape suivante </button>
+		<button id="2to1"> Etape précédente </button>
+		<button id="2to3"> Passer à l'étape suivante </button>
 	</section>
 
 	<section id="etape3">
@@ -121,7 +121,7 @@
 				<label for="faction"> 4 </label>
 			</div>
 		</div>
-		<button> Etape précédente </button>
+		<button id="3to2"> Etape précédente </button>
 		<input type="submit" value="Terminer l'inscription">
 	</section>
 </form>

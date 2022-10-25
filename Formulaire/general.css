@@ -3,6 +3,6 @@
 @import url("../Commun-Aux-Pages/header.css");
 @import url("../Commun-Aux-Pages/footer.css");
 
-main {
-
+main form button {
+    display : none 
 }
