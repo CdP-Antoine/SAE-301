@@ -1,4 +1,9 @@
 <?php
+require_once("POO/client.php") ;
+require_once("POO/event.php") ;
+require_once("POO/lieu-clan.php") ;
+
+$event = new Event(3) ;
 
 ?>
 
