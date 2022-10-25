@@ -1,7 +1,7 @@
 /* footer */
-
-footer h2 {
-    background-color: teal;
+/*Image du footer*/
+footer img {
+    width: 25vw;
 }
 
 footer ul {
