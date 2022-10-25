@@ -1,31 +1,27 @@
 <!-- Header -->
 
 <nav>
-    <ul>
+    <ul class="ListeGlobale">
         <!-- Logo avec titre inclus -->
-        <li><a href="index.php"><img src="Illustrations/Commun-Aux-Pages/logoheader.png" alt="Logo du Titre" class="logo"></a></li>
+        <li class="ChoixPrincipal"><a href="index.php"><img class="logo" src="Illustrations/Commun-Aux-Pages/logoheader.png" alt="Logo du Titre"></a></li>
 
         <!-- Menu Description -->
-        <li>
-            <a href="description.php">Explications Histoire</a>
-            <ul>
-                <li><a href="description.php#cestQuoiLeGn">C'est quoi le G.N. ?</a></li>
-                <li><a href="description.php#clans">Les 4 clans</a></li>
-                <li><a href="description.php#lieux">Les 368 Lieux</a></li>
-            </ul>
+        <li class="ChoixPrincipal">
+            <a class="LienPrincipal" href="description.php">Explications<br>Histoire</a><br>
+            <a class="LienSecondaire" href="description.php#cestQuoiLeGn">C'est quoi le G.N. ?</a><br>
+            <a class="LienSecondaire" href="description.php#clans">Les 4 clans</a><br>
+            <a class="LienSecondaire" href="description.php#lieux">Les 368 Lieux</a>
         </li>
 
         <!-- Menu Déroulé -->
-        <li>
-            <a href="deroule.php">Activités Planning</a>
-            <ul>
-                <li><a href="deroule.php#attaque-chateau"> Évènemements</a></li>
-                <li><a href="deroule.php#recap">Planning</a></li>
-                <li><a href="deroule.php#petits">P'tits Guerriers</a></li>
-            </ul>
+        <li class="ChoixPrincipal">
+            <a class="LienPrincipal" href="deroule.php">Activités<br>Planning</a><br>
+            <a class="LienSecondaire" href="deroule.php#attaque-chateau"> Évènemements</a><br>
+            <a class="LienSecondaire" href="deroule.php#recap">Planning</a><br>
+            <a class="LienSecondaire" href="deroule.php#petits">P'tits Guerriers</a>
         </li>
 
         <!-- Menu Formulaire -->
-        <li><a href="formulaire.php"><img class="ticket" src="Illustrations/Commun-Aux-Pages/ticket.png" alt="Icone ticket"></a></li>
+        <li class="ChoixPrincipal"><a href="formulaire.php"><img class="ticket" src="Illustrations/Commun-Aux-Pages/ticket.png" alt="Icone ticket"></a></li>
     </ul>
 </nav>
