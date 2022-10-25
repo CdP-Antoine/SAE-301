@@ -1,5 +1,8 @@
 /* Deroule > recap */
 
-#recap h2 {
+#recap {
     background-color: chartreuse;
+    text-align: center;
+
+    margin: 1vmax;
 }
