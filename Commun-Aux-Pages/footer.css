@@ -1,7 +1,8 @@
 /* footer */
 
 footer h2 {
-    background-color: teal;
+    background-color: #CBBF7A;
+    border-radius: 20px;
 }
 
 footer ul {
