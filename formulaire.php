@@ -23,7 +23,25 @@
 </header>
 
 <main>
-	<?php require_once("Formulaire/incl.php") ;?>
+
+<form action="" method="POST">
+	<section id="etape0">
+		<h2> Pour commencer l'inscription </h2>
+	</section>
+
+	<section id="etape1">
+		<h2> Etape 1 </h2>
+	</section>
+
+	<section id="etape2">
+		<h2> Etape 2 </h2>
+	</section>
+
+	<section id="etape3">
+		<h2> Etape 3 </h2>
+	</section>
+</form>
+
 </main>
 
 <footer>
