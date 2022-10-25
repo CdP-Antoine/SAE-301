@@ -5,11 +5,7 @@
 
     <li><a href="plan.php">Plan du site</a></li>
     <li>
-        <ul>
-            <li><img src="Illustrations/Commun-Aux-Pages/#"></li>
-            <li><img src="Illustrations/Commun-Aux-Pages/#"></li>
-            <li><img src="Illustrations/Commun-Aux-Pages/#"></li>
-        </ul>
+        <a href="index.php"><img src="Illustrations/Commun-Aux-Pages/logofooter.png" alt="Le Roi de l'Oiseau"></a>
     </li>
 
     <li><a href="mentions.php">Mentions Légales</a></li>

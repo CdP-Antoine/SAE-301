@@ -5,11 +5,15 @@ body {
 
 /* header */
 
+/* img ticket*/
 header nav ul li img {
     width: 8vmax;
 }
-header h1 {
-    font-size: 5vmax;
+
+/*img logo*/
+header .logo{
+    width:25vw;
+    margin-left: 3%;
 }
 
 header a {
