@@ -2,7 +2,7 @@
 
 
 <section id="frise">
-	<?php require_once("Deroule/frise.php") ;?>
+	<?php require_once("Index/frise.php") ;?>
 </section>
 
 <section id="attaque-chateau">
