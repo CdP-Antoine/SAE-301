@@ -19,9 +19,9 @@
         <li>
             <a href="deroule.php">Activités Planning</a>
             <ul>
-                <li><a href="description.php#cestQuoiLeGn"> Évènemements</a></li>
-                <li><a href="description.php#clans">Planning</a></li>
-                <li><a href="description.php#lieux">P'tits Guerriers</a></li>
+                <li><a href="deroule.php#attaque-chateau"> Évènemements</a></li>
+                <li><a href="deroule.php#recap">Planning</a></li>
+                <li><a href="deroule.php#petits">P'tits Guerriers</a></li>
             </ul>
         </li>
 
