@@ -55,23 +55,40 @@ class LieuClan {
     }
 
     public function AfficherAdmin() {
-        echo '<form action="" method="GET">';
+        echo '<form enctype="multipart/form-data" action="" method="post">';
         echo "<label for='id'>ID : </label><input type='number' value='".$this->id."' name='id' readonly><br>";
-        echo "<label for='titre'>Titre : </label><input type='text' value='".$this->titre."' name='text'><br>";
-        echo '<img src="'.$this->img.'" alt=""><br>';
+        echo "<label for='titre'>Titre : </label><input type='text' value='".$this->titre."' name='titre'><br>";
+        echo '<img src="'.anchored_link("SAE-301/Illustrations/".$this->img).'" alt=""><br>';
+        echo '<input type="hidden" name="MAX_FILE_SIZE" value="300000" />';
         echo "<label for='img'>Changer l'image : </label><input type='file' name='img'><br>";
-        echo "<label for='desc'> Description : </label><input type='text' value='".$this->desc."' name='id'><br>";
+        echo "<label for='desc'> Description : </label><input type='text' value='".$this->desc."' name='desc'><br>";
         echo '<input type="submit" value="Modifier les données" name="envoi">';
         echo '</form>';
     }
 
     public function modifier($donnees){
-        $requete = 'UPDATE lieu SET titre = "'.$donnees["titre"].'", description = "'.$donnees["description"].'", img ="Illustrations/Lieux/'.$_FILES['img']['name'].'" WHERE id_lieu = '.$this->id ;
+        if ($this->type == 0) {
+            $requete = 'UPDATE clan SET titre = "'.$donnees["titre"].'", description = "'.$donnees["desc"].'", img ="Clans/'.$_FILES['img']['name'].'" WHERE id_clan = '.$this->id ;
+        } else {
+            $requete = 'UPDATE lieu SET titre = "'.$donnees["titre"].'", description = "'.$donnees["desc"].'", img ="Lieux/'.$_FILES['img']['name'].'" WHERE id_lieu = '.$this->id ;
+        }
+
         $this->connexion->query($requete) ;
 
-        $this->img = $_FILES['img']['name'];
+        if ($this->type == 0) {
+            $this->img = "Clans/".$_FILES['img']['name'];
+        } else {
+            $this->img = "Lieux/".$_FILES['img']['name'];
+        }
+
         $this->desc = $donnees["desc"];
         $this->titre = $donnees["titre"];
+        if ($this->type == 0) {
+            move_uploaded_file($_FILES['img']['tmp_name'], anchored_link('SAE-301/Illustrations/Clans/').basename($_FILES['img']['name']));
+        } else {
+            move_uploaded_file($_FILES['img']['tmp_name'], anchored_link('SAE-301/Illustrations/Lieux/').basename($_FILES['img']['name']));
+        }
+        
     }
 
     // ----- FIN Zone Méthodes

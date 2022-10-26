@@ -83,7 +83,6 @@ class Client {
     }
 
     public function Modifier($donnees) {
-        // UPDATE `participant` SET `nom` = 'TestNomHAHA' WHERE `participant`.`id_participant` = 6; 
         $requete = 'UPDATE participant SET nom = "'.$donnees["nom"].'", prenom = "'.$donnees["prenom"].'", mail ="'.$donnees["mail"].'", age = "'.$donnees["age"].'", pro = "'.$donnees["pro"].'", id_clan = "'.$donnees["faction"].'", certificat = "'.$donnees["certificat"].'" WHERE id_participant = '.$this->id ;
         $this->connexion->query($requete) ;
 

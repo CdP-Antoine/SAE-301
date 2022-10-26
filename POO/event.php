@@ -46,11 +46,6 @@ class Event {
 
     // ----- Zone Méthodes 
     function afficher () {
-        // echo "Titre : ".$this->titre."<br>" ; 
-        // echo "Bio : ".$this->bio."<br>" ; 
-        // echo "Info : ".$this->info."<br>" ; 
-        // echo "Lieu : ".$this->lieu."<br>" ; 
-        // echo "Clan : ".$this->clan."<br><br>" ; 
 
         $exist = array(
                 1 => 'class="paspresent"',
@@ -91,12 +86,84 @@ class Event {
         </div>') ;
     }
 
-    function modifier ($newT, $newB, $newI, $newL, $newC) {
-        $this->titre = $newT ;
-        $this->bio = $newB ; 
-        $this->info = $newI ;
-        $this->lieu = $newL ;
-        $this->clan = $newC ;
+    function AfficherAdmin() {
+        echo '<form enctype="multipart/form-data" action="" method="post">';
+        echo("<label for='id'>ID : </label><input type='number' value='".$this->id."' name='id' readonly><br>");
+        echo "<label for='titre'>Titre : </label><input type='text' value='".$this->titre."' name='titre'><br>";
+        echo "<label for='bio'>Bio : </label><input type='text' value='".$this->bio."' name='bio'><br>";
+        echo "<label for='info'>Info : </label><input type='text' value='".$this->info."' name='info'><br>";
+        echo '<select name="lieu">';
+    
+        $requete = "SELECT id_lieu,titre FROM lieu" ;
+        $resultats = $this->connexion->query($requete) ;
+        foreach($resultats as $i) {
+            if ($i["id_lieu"] == $this->lieu["id_lieu"]) {
+                echo '<option value="'.$i["id_lieu"].'" selected>'.$i["id_lieu"]." - ".$i["titre"].'</option>' ;
+            } else {
+                echo '<option value="'.$i["id_lieu"].'">'.$i["id_lieu"]." - ".$i["titre"].'</option>' ;
+            }
+        }
+        echo '</select>';
+
+        $exist = array(
+            1 => '',
+            2 => '',
+            3 => '',
+            4 => ''
+        ) ;
+
+        foreach ($this->clans as $i) {
+            $exist[$i["id_clan"]] = 'checked';
+        }
+        echo "<br>";
+        echo '<input type="checkbox" name="clan1"'.$exist[1].'><label for="clan1">Viguera</label><br>';
+        echo '<input type="checkbox" name="clan2"'.$exist[2].'><label for="clan2">Liostra</label><br>';
+        echo '<input type="checkbox" name="clan3"'.$exist[3].'><label for="clan3">Paylen</label><br>';
+        echo '<input type="checkbox" name="clan4"'.$exist[4].'><label for="clan4">Morafen</label><br>';
+        echo '<input type="submit" value="Modifier les données" name="envoi">';
+        echo '</form>';
+    }
+
+    function modifier ($donnees) {
+        $requete = 'UPDATE event SET titre ="'.$donnees["titre"].'",description ="'.$donnees["bio"].'",info ="'.$donnees["info"].'",id_lieu ="'.$donnees["lieu"].'"' ;
+        $this->connexion->query($requete);
+
+        $requete = "DELETE FROM clan_event WHERE clan_event.id_event = ".$this->id ;
+        $this->connexion->query($requete);
+        
+
+        if (isset($donnees["clan1"])) {
+            $requete = 'INSERT INTO clan_event (id_clanevent, id_clan, id_event) VALUES (NULL, 1, '.$this->id.')';
+            $this->connexion->query($requete);
+        }
+        if (isset($donnees["clan2"])) {
+            $requete = 'INSERT INTO clan_event (id_clanevent, id_clan, id_event) VALUES (NULL, 2, '.$this->id.')';
+            $this->connexion->query($requete);
+        }
+        if (isset($donnees["clan3"])) {
+            $requete = 'INSERT INTO clan_event (id_clanevent, id_clan, id_event) VALUES (NULL, 3, '.$this->id.')';
+            $this->connexion->query($requete);
+        }
+        if (isset($donnees["clan4"])) {
+            $requete = 'INSERT INTO clan_event (id_clanevent, id_clan, id_event) VALUES (NULL, 4, '.$this->id.')';
+            $this->connexion->query($requete);
+        }
+
+        $this->titre = $donnees["titre"] ;
+        $this->bio = $donnees["bio"] ; 
+        $this->info = $donnees["info"] ;
+
+        $requete = 'SELECT id_lieu,img,titre FROM lieu WHERE id_lieu="'.$donnees["lieu"].'"' ;
+        $resultats = $this->connexion->query($requete) ;
+        $tableau2 = $resultats->fetchAll() ;
+
+        $this->lieu = $tableau2[0] ;
+
+        $requete = 'SELECT id_clan FROM clan_event WHERE id_event="'.$this->id.'"' ;
+        $resultats = $this->connexion->query($requete) ;
+        $tableau2 = $resultats->fetchAll() ;
+
+        $this->clans = $tableau2 ;
     }
     // ----- FIN Zone Méthodes
 }
