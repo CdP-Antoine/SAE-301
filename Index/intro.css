@@ -2,13 +2,17 @@
 
 
 #intro {
-  background-color: springgreen;
+  background-color: wheat;
+  border-radius: 30px;
+  align-items: center;
+  padding: 50px;
+  margin-top: 20vh;
 }
 
 #intro {
   display: flex;
   flex-direction: column;
-
+  
   text-align: left;
   justify-content: center;
   align-items: center;
@@ -23,10 +27,10 @@
 
 #intro a{
   display: inline-block;
-  background-color: #ee8f14;
+  background-color: white;
   border-radius: 10px;
-  border: 4px double #cccccc;
-  color: #eeeeee;
+  border: 4px double white;
+  color: black;
   text-align: center;
   padding: 5px;
   margin: 5px;
@@ -38,5 +42,5 @@
 }
 
 #intro a:hover {
-  background-color: #ffcf66;
+  background-color: rgb(231, 231, 231);
 }

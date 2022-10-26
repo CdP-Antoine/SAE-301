@@ -22,6 +22,9 @@
 
 
 <main>
+	<h1>La Guerre de l'Oiseau</h1>
+
+
 	<?php require_once("Index/incl.php") ;?>
 </main>
 

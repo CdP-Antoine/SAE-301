@@ -2,9 +2,10 @@
 
 
 #factions-col {
-    background-color: aqua;
+    background-color: wheat;
     text-align: center;
-    margin: 1vmax;
+    margin: 20vh;
+    border-radius: 30px;
 }
 
 #factions-col .flexClans {
@@ -40,7 +41,7 @@
     height: 50vmax;
 }
 #factions-col .photoBlason {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 

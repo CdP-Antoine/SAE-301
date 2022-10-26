@@ -2,9 +2,10 @@
 
 
 #accueil h2 {
-    background-color: yellow;
-    margin: 5vmax 3vmax 5vmax 3vmax;
+    background-color: WHITE;
     font-size: 3vmax;
+    border-radius: 20px;
+    margin: 20vw;
 }
 
 #accueil {
@@ -14,10 +15,11 @@
     justify-content: center;
     align-items: center;
 
-    background: url(../Illustrations/Index/provisoire.jpg);
+    background: url(../Illustrations/Index/chevalier.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-origin: center;
+    
 
     height: auto;
     width: auto;

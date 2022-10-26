@@ -2,7 +2,7 @@
 
 <link href="slider-lieux.css" rel="stylesheet">
 <script type="text/javascript" src="slider-lieux.js"></script>
-<h2> Test Slider-Lieux </h2>
+<h2> Lieux de l'événement  </h2>
 
 <div class="CSSgal">
 
@@ -14,8 +14,8 @@
 
 <div class="slider">
   <div style="background:#5b8;">
-          <h2>PURE <b>CSS</b> SLIDESHOW</h2>
-          <p>Responsive Slideshow Gallery created using CSS only<br>by Roko</p>
+          <h2>SLIDE 1</h2>
+
       </div>
   <div style="background:#85b;">
           <h2>Slide 2</h2>
