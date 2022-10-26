@@ -1,5 +1,18 @@
 <?php
+require_once("lib/PHP-librairies/Gestion-URL/anchored_link.php");
+require_once("POO/client.php") ;
+require_once("POO/event.php") ;
+require_once("POO/lieu-clan.php") ;
 
+$connexion = new PDO('mysql:host=localhost;port=3306;dbname=sae301','root','') ; 
+
+$requete = 'SELECT id_lieu FROM lieu' ;
+$resultats = $connexion->query($requete) ;
+$tableau = $resultats->fetchAll() ;
+$listeLieu = [] ;
+foreach($tableau as $i) {
+    $listeLieu[] = new LieuClan($i["id_lieu"],1) ;
+}
 ?>
 <!DOCTYPE html>
 <html>

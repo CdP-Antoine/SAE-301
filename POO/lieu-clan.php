@@ -42,16 +42,11 @@ class LieuClan {
     // ----- Zone Méthodes 
 
     public function Afficher(){
-        echo $this->id;
-        echo "<br>";
-        echo $this->type;
-        echo "<br>";
-        echo $this->img;
-        echo "<br>";
-        echo $this->desc;
-        echo "<br>";
-        echo $this->titre;
-        echo "<br>";
+        echo "<div>" ;
+        echo "<h2>".$this->titre."</h2>" ;
+        echo "<img src='".anchored_link("SAE-301/Illustrations/".$this->img)."' alt=''>";
+        echo "<p>".$this->desc."</p>";
+        echo "</div>" ;
     }
 
     public function AfficherAdmin() {
