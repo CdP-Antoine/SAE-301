@@ -1,3 +1,16 @@
+/*Titre*/
+#factions-col h2 {
+    padding-top:3%;
+    margin-bottom: -2%;
+}
+
+/*Nom de clans*/
+#factions-col h3{
+    color:rgb(110, 54, 9);
+    font-size: 2.5vmax;
+    margin-bottom: -2%;
+}
+
 /* Index > factions-col */
 
 
@@ -41,8 +54,5 @@
     width: 100%;
     height: auto;
 }
-#factions-col .photoBlason {
-    width: 80%;
-    height: auto;
-}
+
 

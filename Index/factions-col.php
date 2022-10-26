@@ -1,5 +1,5 @@
 <!-- Index > Factions-col -->
-<h3>Les 4 Clans</h3>
+<h2>Les 4 Clans</h2>
 
 <!-- Début Flex -->
 <div class="mobile">
@@ -9,15 +9,13 @@
 
         <!-- Partie Clan 1 -->
         <div class="clan">
-            <img class="photoGens" src="Illustrations/Index/viguera.jpg">
-            <img class="photoBlason" src="Illustrations/Index/carreviguera.png">
+            <img class="photoGens" src="Illustrations/Index/viguera2.jpg">
             <h3>Viguera</h3>
         </div>
 
         <!-- Partie Clan 2 -->
         <div class="clan">
-            <img class="photoGens" src="Illustrations/Index/liostra.jpg">
-            <img class="photoBlason" src="Illustrations/Index/carreliostra.png">
+            <img class="photoGens" src="Illustrations/Index/liostra2.jpg">
             <h3>Liostra</h3>
         </div>
 
@@ -29,15 +27,13 @@
 
         <!-- Partie Clan 3 -->
         <div class="clan">
-            <img class="photoGens" src="Illustrations/Index/paylen.jpg">
-            <img class="photoBlason" src="Illustrations/Index/carrepaylen.png">
+            <img class="photoGens" src="Illustrations/Index/paylen2.jpg">
             <h3>Paylen</h3>
         </div>
 
         <!-- Partie Clan 4 -->
         <div class="clan">
-            <img class="photoGens" src="Illustrations/Index/morafen.jpg">
-            <img class="photoBlason" src="Illustrations/Index/carremorafen.png">
+            <img class="photoGens" src="Illustrations/Index/morafen2.jpg">
             <h3>Morafen</h3>
         </div>
 
