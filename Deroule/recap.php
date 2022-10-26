@@ -1,4 +1,4 @@
 <!-- Deroule > recap -->
 
-<h3>Planning</h3>
+<h2>Planning</h2>
 <img src="Illustrations/test.png">

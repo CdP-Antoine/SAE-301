@@ -10,4 +10,15 @@ body{
 
 h1{
     font-family: Kingthings;
+    font-size: 4vmax;
+}
+
+h2{
+    font-family: Kingthings;
+    font-size: 3vmax;
+}
+
+h3{
+    font-family:Kingthings;
+    font-size: 2vmax;
 }

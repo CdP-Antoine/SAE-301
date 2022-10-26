@@ -1,7 +1,7 @@
 <!-- Index > Intro -->
 
 
-<h3>Introduction :</h3>
+<h2>Introduction :</h2>
 <p>Lors de la dernière édition du Roi de l’Oiseau, le gagnant du tournois de tir qui a remporté les clés de 
 la ville et le titre de Roi, fut grandement contesté car il y aurait eu triche et erreur sur le gagnant. La 
 foule puis la ville se divisa et chaque Isle pris parti dans cette histoire qui pris des proportions 
