@@ -1,11 +1,12 @@
 <!-- Index > frise.php -->
 
+<h2>La frise chronologique</h2>
 
 <div>
 
 <figure>
 
-    <img src="Illustrations/Index/#" alt="frise">
+    <img src="Illustrations/Index/#" alt="">
 
     <figcaption>
 

@@ -1,8 +1,13 @@
 /* Index > frise */
 
+h2 {
+    text-align: center;
+}
 
 #frise {
-    background-color: aquamarine;
+    background-color:wheat;
+    border-radius: 30px;
+    margin: 20vh;
 }
 
 #frise div{
@@ -13,3 +18,4 @@
 #frise figcaption{
     text-align: center;
 }
+

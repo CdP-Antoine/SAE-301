@@ -11,6 +11,8 @@ http://stackoverflow.com/a/34696029/383904
 	position: relative;
 	overflow: hidden;
 	height: 100%; /* Or set a fixed height */
+	margin: 5vh;
+	margin-bottom: 20vh;
 }
 
 /* SLIDER */
@@ -33,6 +35,7 @@ http://stackoverflow.com/a/34696029/383904
 	width: 100%;
 	background: none 50% no-repeat;
 	background-size: cover;
+	
 }
 
 /* PREV/NEXT, CONTAINERS & ANCHORS */
@@ -149,4 +152,8 @@ http://stackoverflow.com/a/34696029/383904
 	margin: 0 3px;
 	color: rgba(0,0,0,0.8);
 	text-decoration: none;
+}
+
+h2 {
+	text-align: center;
 }

@@ -1,15 +1,18 @@
 /* Fichier Général Index */
 
-@import url("../Commun-Aux-Pages/header.css") ;
-@import url("../Commun-Aux-Pages/footer.css") ;
+@import url("../Commun-Aux-Pages/header.css");
+@import url("../Commun-Aux-Pages/footer.css");
 
-@import url("accueil.css") ;
-@import url("factions-col.css") ;
-@import url("frise.css") ;
-@import url("intro.css") ;
-@import url("slider-lieux.css") ;
+@import url("accueil.css");
+@import url("factions-col.css");
+@import url("frise.css");
+@import url("intro.css");
+@import url("slider-lieux.css");
 
 
-main {
+main h1 {
+
+text-align: center;
+padding: 50px;
 
 }

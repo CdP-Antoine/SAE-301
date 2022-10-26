@@ -2,9 +2,10 @@
 
 
 #accueil h2 {
-    background-color: yellow;
+    background-color: WHITE;
     margin: 5vmax 3vmax 5vmax 3vmax;
     font-size: 3vmax;
+    border-radius: 20px;
 }
 
 #accueil {
@@ -18,6 +19,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-origin: center;
+    
 
     height: auto;
     width: auto;

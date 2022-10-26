@@ -10,14 +10,14 @@
         <!-- Partie Clan 1 -->
         <div class="clan">
             <img class="photoGens" src="../Illustrations/test.png">
-            <img class="photoBlason" src="../Illustrations/test.png">
+            <img class="photoBlason" src="Illustrations/viguera.png">
             <h3>Viguera</h3>
         </div>
 
         <!-- Partie Clan 2 -->
         <div class="clan">
             <img class="photoGens" src="../Illustrations/test.png">
-            <img class="photoBlason" src="../Illustrations/test.png">
+            <img class="photoBlason" src="Illustrations/liostra.png">
             <h3>Liostra</h3>
         </div>
 
@@ -30,14 +30,14 @@
         <!-- Partie Clan 3 -->
         <div class="clan">
             <img class="photoGens" src="../Illustrations/test.png">
-            <img class="photoBlason" src="../Illustrations/test.png">
+            <img class="photoBlason" src="Illustrations/paylen.png">
             <h3>Paylen</h3>
         </div>
 
         <!-- Partie Clan 4 -->
         <div class="clan">
             <img class="photoGens" src="../Illustrations/test.png">
-            <img class="photoBlason" src="../Illustrations/test.png">
+            <img class="photoBlason" src="Illustrations/morafen.png">
             <h3>Morafen</h3>
         </div>
 
