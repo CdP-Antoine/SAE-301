@@ -104,21 +104,23 @@
 			<p>
 				Quel camp désirez-vous rejoindre ?
 			</p>
-			<div>
-				<input type="radio" name="faction" value="1">
-				<label for="faction"> 1 </label>
-			</div>
-			<div>
-				<input type="radio" name="faction" value="2">
-				<label for="faction"> 2 </label>
-			</div>
-			<div>
-				<input type="radio" name="faction" value="3">
-				<label for="faction"> 3 </label>
-			</div>
-			<div>
-				<input type="radio" name="faction" value="4">
-				<label for="faction"> 4 </label>
+			<div class="listeblasons">
+				<div>
+					<input type="radio" name="faction" value="1">
+					<label for="faction"> Morafen </br><img src="Illustrations/Formulaire/blason_1.svg" alt="Blason de Morafen" class="blason"></label>
+				</div>
+				<div>
+					<input type="radio" name="faction" value="2">
+					<label for="faction"> Liostra </br><img src="Illustrations/Formulaire/blason_2.svg" alt="Blason de Liostra" class="blason"></label>
+				</div>
+				<div>
+					<input type="radio" name="faction" value="3">
+					<label for="faction"> Paylen </br><img src="Illustrations/Formulaire/blason_3.png" alt="Blason de Paylen" class="blason"></label>
+				</div>
+				<div>
+					<input type="radio" name="faction" value="4">
+					<label for="faction"> Viguera </br><img src="Illustrations/Formulaire/blason_4.svg" alt="Blason de Viguera" class="blason"></label>
+				</div>
 			</div>
 		</div>
 		<button id="3to2"> Etape précédente </button>

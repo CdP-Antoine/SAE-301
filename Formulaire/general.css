@@ -3,7 +3,34 @@
 @import url("../Commun-Aux-Pages/header.css");
 @import url("../Commun-Aux-Pages/footer.css");
 
+main {
+    display:flex;
+    justify-content: center;
+    padding : 2% 0;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main>section {
+    width: 70vw;
+}
+
 main form button {
     display : none 
 }
 
+form section {
+    background-color: aqua;
+    border-radius: 20%;
+    padding: 10%;
+}
+
+main .blason {
+    height: 10vmax;
+}
+
+/* Alignement des blasons */
+main .listeblasons{
+    display: flex;
+    justify-content: space-between;
+}
