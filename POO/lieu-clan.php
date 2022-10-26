@@ -54,11 +54,24 @@ class LieuClan {
         echo "<br>";
     }
 
-    public function modifier($t, $i, $d, $tt){
-        $this->type = $t;
-        $this->img = $i;
-        $this->desc = $d;
-        $this->titre = $t; 
+    public function AfficherAdmin() {
+        echo '<form action="" method="GET">';
+        echo "<label for='id'>ID : </label><input type='number' value='".$this->id."' name='id' readonly><br>";
+        echo "<label for='titre'>Titre : </label><input type='text' value='".$this->titre."' name='text'><br>";
+        echo '<img src="'.$this->img.'" alt=""><br>';
+        echo "<label for='img'>Changer l'image : </label><input type='file' name='img'><br>";
+        echo "<label for='desc'> Description : </label><input type='text' value='".$this->desc."' name='id'><br>";
+        echo '<input type="submit" value="Modifier les données" name="envoi">';
+        echo '</form>';
+    }
+
+    public function modifier($donnees){
+        $requete = 'UPDATE lieu SET titre = "'.$donnees["titre"].'", description = "'.$donnees["description"].'", img ="Illustrations/Lieux/'.$_FILES['img']['name'].'" WHERE id_lieu = '.$this->id ;
+        $this->connexion->query($requete) ;
+
+        $this->img = $_FILES['img']['name'];
+        $this->desc = $donnees["desc"];
+        $this->titre = $donnees["titre"];
     }
 
     // ----- FIN Zone Méthodes
