@@ -24,6 +24,7 @@
 /* Responsive */
 #factions-col .mobile {
     display: flex;
+    padding: 5%;
 }
 @media screen and (max-width: 500px) {
     #factions-col .mobile {
@@ -38,7 +39,7 @@
 }
 #factions-col .photoGens {
     width: 100%;
-    height: 50vmax;
+    height: auto;
 }
 #factions-col .photoBlason {
     width: 80%;
