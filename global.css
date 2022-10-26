@@ -1,0 +1,13 @@
+/*police d'écriture*/
+@font-face {
+    font-family: Kingthings;
+    src: url(Police/Kingthings.woff) format('woff');
+ }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Kingthings;
+}

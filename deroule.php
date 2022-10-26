@@ -17,6 +17,7 @@ $event = new Event(3) ;
 	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/favicon.png"/>
 	<link href="Deroule/general.css" rel="stylesheet">
 	<link href="Commun-Aux-Pages/header.css" rel="stylesheet">
+	<link href="global.css" rel="stylesheet">
 
 	<script src="script.js"></script>
 

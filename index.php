@@ -11,6 +11,7 @@
 	<meta name="author" content="">
 	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/favicon.png"/>
 	<link href="Index/general.css" rel="stylesheet">
+	<link href="global.css" rel="stylesheet">
 
 	<script src="script.js"></script>
 </head>
