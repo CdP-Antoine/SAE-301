@@ -1,5 +1,8 @@
 <?php
-
+require_once("lib/PHP-librairies/Gestion-URL/anchored_link.php");
+require_once("POO/client.php") ;
+require_once("POO/event.php") ;
+require_once("POO/lieu-clan.php") ;
 ?>
 
 <!DOCTYPE html>
@@ -44,15 +47,15 @@
 
 		<div>
 			<label for="nom">Nom *</label>
-			<input type="text" name="nom" placeholder="Gérard">
+			<input type="text" name="nom" placeholder="Gérard" required>
 		</div>
 		<div>
 			<label for="prenom">Prénom *</label>
-			<input type="text" name="prenom" placeholder="Dupuis">
+			<input type="text" name="prenom" placeholder="Dupuis" required>
 		</div>
 		<div>
 			<label for="mail">Mail *</label>
-			<input type="text" name="mail" placeholder="example@gmail.com">
+			<input type="text" name="mail" placeholder="example@gmail.com" required>
 		</div>
 
 		<button class="button_prev" id="1to0"> Etape précédente </button>
@@ -64,7 +67,7 @@
 
 		<div>
 			<div>
-				<input type="radio" name="child" value="0" id="enfant">
+				<input type="radio" name="child" value="0" id="enfant" required>
 				<label for="child">Enfant</label>
 				<div id="enfantdiv">
 					<label for="age">Entrez votre âge</label>
@@ -72,18 +75,18 @@
 				</div>
 			</div>
 			<div>
-				<input type="radio" name="child" value="1" id="adulte">
+				<input type="radio" name="child" value="1" id="adulte" required>
 				<label for="child">Adulte</label>
 				<div>
 					<p>
 						Êtes-vous :
 					</p>
 					<div>
-						<input type="radio" name="pro" value="0" id="amateur">
+						<input type="radio" name="pro" value="0" id="amateur" required>
 						<label for="pro">Amateur</label>
 					</div>
 					<div>
-						<input type="radio" name="pro" value="1" id="prof">
+						<input type="radio" name="pro" value="1" id="prof" required>
 						<label for="pro">Professionnel</label>
 						<div id="profdiv">
 							<label for="certificat">Veuillez fournir votre certificat</label>
@@ -107,19 +110,19 @@
 			</p>
 			<div class="listeblasons">
 				<div>
-					<input type="radio" name="faction" value="1">
+					<input type="radio" name="faction" value="1" required>
 					<label for="faction"> Morafen </br><img src="Illustrations/Formulaire/blason_1.svg" alt="Blason de Morafen" class="blason"></label>
 				</div>
 				<div>
-					<input type="radio" name="faction" value="2">
+					<input type="radio" name="faction" value="2" required>
 					<label for="faction"> Liostra </br><img src="Illustrations/Formulaire/blason_2.svg" alt="Blason de Liostra" class="blason"></label>
 				</div>
 				<div>
-					<input type="radio" name="faction" value="3">
+					<input type="radio" name="faction" value="3" required>
 					<label for="faction"> Paylen </br><img src="Illustrations/Formulaire/blason_3.png" alt="Blason de Paylen" class="blason"></label>
 				</div>
 				<div>
-					<input type="radio" name="faction" value="4">
+					<input type="radio" name="faction" value="4" required>
 					<label for="faction"> Viguera </br><img src="Illustrations/Formulaire/blason_4.svg" alt="Blason de Viguera" class="blason"></label>
 				</div>
 			</div>
