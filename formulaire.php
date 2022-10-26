@@ -26,7 +26,7 @@
 <main>
 
 <form action="" method="POST">
-	<section id="etape0">
+	<section class="box" id="etape0">
 		<h2> Pour commencer l'inscription </h2>
 		<p> Nous vous demandons de : </p>
 		<ul>
@@ -38,7 +38,7 @@
 		<button id="0to1"> Commencer l'inscription </button>
 	</section>
 
-	<section id="etape1">
+	<section class="box" id="etape1">
 		<h2> Etape 1 </h2>
 
 		<div>
@@ -54,11 +54,11 @@
 			<input type="text" name="mail" placeholder="example@gmail.com">
 		</div>
 
-		<button id="1to0"> Etape précédente </button>
-		<button id="1to2"> Passer à l'étape suivante </button>
+		<button class="button_prev" id="1to0"> Etape précédente </button>
+		<button class= "button_next" id="1to2"> Passer à l'étape suivante </button>
 	</section>
 
-	<section id="etape2">
+	<section class="box" id="etape2">
 		<h2> Etape 2 </h2>
 
 		<div>
@@ -93,11 +93,11 @@
 			</div>
 		</div>
 
-		<button id="2to1"> Etape précédente </button>
-		<button id="2to3"> Passer à l'étape suivante </button>
+		<button class="button_prev" id="2to1"> Etape précédente </button>
+		<button class="button_next" id="2to3"> Passer à l'étape suivante </button>
 	</section>
 
-	<section id="etape3">
+	<section class=box id="etape3">
 		<h2> Etape 3 </h2>
 	
 		<div>
@@ -123,7 +123,7 @@
 				</div>
 			</div>
 		</div>
-		<button id="3to2"> Etape précédente </button>
+		<button class="button_prev" id="3to2"> Etape précédente </button>
 		<input type="submit" value="Terminer l'inscription">
 	</section>
 </form>
