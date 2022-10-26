@@ -63,28 +63,28 @@
 
 		<div>
 			<div>
-				<input type="radio" name="child" value="0">
+				<input type="radio" name="child" value="0" id="enfant">
 				<label for="child">Enfant</label>
-				<div>
+				<div id="enfantdiv">
 					<label for="age">Entrez votre âge</label>
 					<input type="number" name="age">
 				</div>
 			</div>
 			<div>
-				<input type="radio" name="child" value="1">
+				<input type="radio" name="child" value="1" id="adulte">
 				<label for="child">Adulte</label>
 				<div>
 					<p>
 						Êtes-vous :
 					</p>
 					<div>
-						<input type="radio" name="pro" value="0">
+						<input type="radio" name="pro" value="0" id="amateur">
 						<label for="pro">Amateur</label>
 					</div>
 					<div>
-						<input type="radio" name="pro" value="1">
+						<input type="radio" name="pro" value="1" id="prof">
 						<label for="pro">Professionnel</label>
-						<div>
+						<div id="profdiv">
 							<label for="certificat">Veuillez fournir votre certificat</label>
 							<input type="file" name="certificat">
 						</div>
