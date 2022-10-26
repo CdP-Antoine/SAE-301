@@ -22,7 +22,7 @@ header li {
 
 /* Liste Globale */
 header .ListeGlobale {
-    background-color: #CBBF7A;
+    background-color: #a79678;
     display: flex;
 
     align-items: top;
@@ -55,7 +55,7 @@ header .ChoixPrincipal {
     gap: 2px;
 }
 header .ChoixPrincipal:hover {
-    background-color: #9F956C;
+    background-color: #b8a485;
     border-radius: 0 0 20px 20px;
 }
 
