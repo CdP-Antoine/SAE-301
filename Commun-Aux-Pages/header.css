@@ -3,8 +3,8 @@
 
 /* img ticket et logo*/
 header .ticket {
-    height: 4vw;
-    padding: 0;
+    height: 4.5vw;
+    padding-top: 1vw;
 }
 header .logo{
     height: 6vw;
@@ -22,14 +22,14 @@ header .ListeGlobale {
     background-size: 100%;
     display: flex;
 
-    align-items: top;
+    align-items: center;
     text-align: center;
     justify-content: space-evenly;
 
     padding: 0;
     margin: 0;
 
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 2.5vw 2.5vw;
 }
 
 /* A, AA, AAA, AAAA !!!!*/
@@ -44,17 +44,19 @@ header a:visited{
 /* Choix Principal */
 header .ChoixPrincipal {
     font-family: Kingthings;
-    justify-content: center;
-    padding: 1vw;
-    font-family: Kingthings;
     font-size: 25px;
     font-weight: bold;
 
-    gap: 2px;
+    line-height: 1.5vw;
+
+    justify-content: center;
+    padding: 1vw;
+
+    gap: 0px;
 }
 header .ChoixPrincipal:hover {
-    background-color: #ffffff;
-    border-radius: 0 0 20px 20px;
+    background-color: #c2a0629a;
+    border-radius: 20px;
 }
 
 /* Lien Principal */
@@ -65,13 +67,12 @@ header .LienPrincipal {
 
 /* Lien Secondaire */
 header .LienSecondaire {
-    padding: 2px;
+    padding: 3px;
     font-size: 1vw;
-    padding: 1px;
     margin: 0;
 }
 header .LienSecondaire:hover {
-    background-color: #ffffff;
+    background-color: #f7ddad65;
     border-radius: 5px;
 }
 header .LienSecondaire:visited{
