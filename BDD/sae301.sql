@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : jeu. 27 oct. 2022 à 16:25
+-- Généré le : jeu. 27 oct. 2022 à 16:29
 -- Version du serveur : 10.4.24-MariaDB
 -- Version de PHP : 8.1.6
 
@@ -87,7 +87,8 @@ INSERT INTO `event` (`id_event`, `titre`, `description`, `info`, `id_lieu`) VALU
 (3, 'Passage d\'apprenti à guerrier', 'Cérémonie officielle de clan où un apprenti obtient son nom de guerrirer', 'Sur le tas de roches, le soleil au zénith ', 1),
 (4, 'oui', 'oui', 'oui', 7),
 (5, 'oui', 'oui', 'oui', 9),
-(6, 'oui', 'oui', 'oui', 9);
+(6, 'oui', 'oui', 'oui', 9),
+(7, 'oui', 'oui', 'oui', 5);
 
 -- --------------------------------------------------------
 
