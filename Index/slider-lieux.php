@@ -1,8 +1,9 @@
 <!-- Index > slider-lieux -->
 
-<h2> Lieux de l'événement  </h2>
+
 
 <div class="slider">
+<h2> Lieux de l'événement  </h2>
   <?php
   foreach($listeLieu as $i) {
       $i->Afficher() ;
