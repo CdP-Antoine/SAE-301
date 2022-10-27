@@ -36,6 +36,9 @@ foreach($tableau as $i) {
 
 
 <main>
+	<div class="imageintro">
+		<img src="Illustrations/Index/logosimple.png" alt="Logo La Guerre de l'Oiseau">
+	</div>
 	<h1>La Guerre de l'Oiseau</h1>
 
 

@@ -4,8 +4,6 @@
   background-color: wheat;
   border-radius: 30px;
   align-items: center;
-  padding: 0 50px 50px 50px;
-  margin-top: 15vh;
   display: flex;
   flex-direction: column;
   
@@ -17,8 +15,11 @@
   height: auto;
   width: auto;
 
-  margin-left: 9.5vmax;
-  margin-right: 9.5vmax;
+  margin-top: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  padding: 4vw;
 }
 
 #intro a{
@@ -36,21 +37,18 @@
   transition: all 0.5s;
   cursor: pointer;
   margin: 0;
-  font-size: 1vmax; 
 }
 
 #intro a:hover {
   background-color: rgb(231, 231, 231);
-<<<<<<< Updated upstream
   color:black;
 }
 
 #intro .enSavoirPlus{
-  margin-top: 2%;
+  margin-top: 1vw;
 }
 
 #intro h2 {
   margin-bottom: 0;
-=======
->>>>>>> Stashed changes
+  margin-top:-2%;
 }

@@ -50,4 +50,9 @@
         désorientée, abîmée et souillée avant le petit matin. Quand la nouvelle vit le jour, ce fut la décadence totale. <br><br>Les armes furent sorties,
         prêtes à être utilisées, et la Guerre de l'Oiseau commença.
     </p>
+    <div class=callToSignUp>
+    <h2>C'est à vous d'écrire la suite...</h2><br>
+    <p>Rejoingnez une faction !</p>
+    <div class="buttonSign"><a href="formulaire.php">Je m'inscris</a></div>
+    </div>
 </section>
