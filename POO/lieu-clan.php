@@ -43,12 +43,14 @@ class LieuClan {
 
     public function Afficher(){
         echo "<div class='afficher'>" ;
-        echo "<h2>".$this->titre."</h2>" ;
+        echo "<h3>".$this->titre."</h3>" ;
         echo "<div class='affimage'>";
         echo "<img src='".anchored_link("Illustrations/".$this->img)."' alt=''>";
+        echo "<div class='texte'>";
         echo "<p>".$this->desc."</p>";
-        echo "</div>" ;
-        echo "</div>" ;
+        echo "</div>";
+        echo "</div>";
+        echo "</div>";
     }
 
     public function AfficherAdmin() {

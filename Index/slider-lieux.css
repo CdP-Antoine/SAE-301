@@ -1,24 +1,47 @@
-#slider-lieux .afficher {
-    display: block;
-
+#slider-lieux {
+    display : flex;
+    justify-content: center;
 }
 
-#slider-lieux .affimage {
-    display: flex;
-   
+#slider-lieux .afficher {
+    width : 50vw
 }
 
 #slider-lieux h2{
     text-align: center;
-    text-decoration: underline wheat 10px;
+    text-decoration: underline wheat 5px;
+}
+
+#slider-lieux h3{
+    text-decoration: underline wheat 3px;
+    text-align: center;
 }
 
 #slider-lieux img {
-    height: 25vh;
+    width: 20vw;
     margin: 30px;
     border-radius: 10px;
 }
 
+#slider-lieux .slider{
+    margin-bottom: 3%;
+}
+
 #slider-lieux p {
     margin: 30px;
+    text-align: justify;
+}
+
+/* Mise au centre de l'image et du texte*/
+
+#slider-lieux .affimage{
+    display: flex;
+    justify-content: center;
+}
+
+/* Mise au centre du texte à coté de l'image*/
+#slider-lieux .texte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
