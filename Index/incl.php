@@ -13,10 +13,6 @@
 	<?php require_once("Index/factions-col.php") ;?>
 </section>
 
-<section id="frise">
-	<?php require_once("Index/frise.php") ;?>
-</section>
-
 <section id="slider-lieux">
 	<?php require_once("Index/slider-lieux.php") ;?>
 </section>
