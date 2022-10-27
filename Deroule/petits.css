@@ -1,5 +1,30 @@
 /* Deroule > petits */
 
-#petits h2 {
-    background-color: aqua;
+#petits{
+    display: flex;
+    justify-content: center;
+}
+
+#petits>div{
+    width: 70vw;
+    margin-bottom: 5%;
+}
+
+#petits img {
+    width: 55%;
+    border-radius: 10%;
+    padding:0 2% 2% 2%;
+}
+
+#petits .image{
+    display: flex;
+    justify-content: center;
+}
+
+#petits ul>li {
+    padding-bottom: 1%;
+}
+
+#petits p {
+    font-weight: 600;
 }
