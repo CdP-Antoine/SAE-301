@@ -10,7 +10,9 @@
 }
 
 #attaque-chateau h2 {
-    background-color: yellow;
+    background-color: wheat;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #attaque-chateau .troislignes{

@@ -1,8 +1,8 @@
 /* Deroule > recap */
 
 #recap {
-    background-color: chartreuse;
+    background-color: wheat;
     text-align: center;
-
+    border-radius: 10px;
     margin: 1vmax;
 }
