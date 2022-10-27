@@ -41,6 +41,7 @@
 
 #intro a:hover {
   background-color: rgb(231, 231, 231);
+<<<<<<< Updated upstream
   color:black;
 }
 
@@ -50,4 +51,6 @@
 
 #intro h2 {
   margin-bottom: 0;
+=======
+>>>>>>> Stashed changes
 }

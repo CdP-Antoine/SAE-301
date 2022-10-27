@@ -1,5 +1,7 @@
 /* Deroule > petits */
 
 #petits h2 {
-    background-color: aqua;
+    background-color: wheat;
+    border-radius: 10px;
+    text-align: center;
 }
