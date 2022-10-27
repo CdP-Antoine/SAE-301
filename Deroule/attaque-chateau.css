@@ -1,5 +1,6 @@
 /* Deroule > attaque-chateau */
 
+
 /* Mise en page globale*/
 #attaque-chateau>div{
     width: 70vw;
@@ -10,7 +11,9 @@
 }
 
 #attaque-chateau h2 {
-    background-color: yellow;
+    background-color: wheat;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #attaque-chateau .troislignes{
