@@ -1,5 +1,29 @@
 /* Formulaire > content */
 
-#content h2 {
-    background-color: yellow;
+
+main {
+    background-color: #CBBF7A;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 5%;
+    text-align: justify;
+
 }
+
+h2{
+    text-align: center;
+}
+.lore{
+    font-family: "Kingthings";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    width: 80vw;
+    padding: 2%;
+    text-align: justify;
+}
+
+
