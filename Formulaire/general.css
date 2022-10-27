@@ -42,7 +42,7 @@ main .listeblasons {
     left: 50%;
     text-decoration: none;
     transform: translate(-50%, -50%);
-    background: #CBBF7A;
+    background: wheat;
     text-align: center;
     border-radius: 20px;
     transition: 500ms ease-out 100ms;
