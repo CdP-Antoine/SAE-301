@@ -3,11 +3,11 @@
 
 /* img ticket et logo*/
 header .ticket {
-    height: 8vw;
+    height: 4vw;
     padding: 0;
 }
 header .logo{
-    height: 10vw;
+    height: 6vw;
     padding: 0;
 }
 
@@ -18,7 +18,8 @@ header li {
 
 /* Liste Globale */
 header .ListeGlobale {
-    background-color: #a79678;
+    background-image:url("/SAE-301/Illustrations/livre.jpg");
+    background-size: 100%;
     display: flex;
 
     align-items: top;
@@ -42,17 +43,17 @@ header a:visited{
 
 /* Choix Principal */
 header .ChoixPrincipal {
+    font-family: Kingthings;
     justify-content: center;
     padding: 1vw;
-
     font-family: Kingthings;
-    font-size: 2.5vw;
+    font-size: 25px;
     font-weight: bold;
 
     gap: 2px;
 }
 header .ChoixPrincipal:hover {
-    background-color: #b8a485;
+    background-color: #ffffff;
     border-radius: 0 0 20px 20px;
 }
 
@@ -64,14 +65,15 @@ header .LienPrincipal {
 
 /* Lien Secondaire */
 header .LienSecondaire {
-    font-size: 2vw;
     padding: 2px;
+    font-size: 1vw;
+    padding: 1px;
     margin: 0;
 }
 header .LienSecondaire:hover {
-    background-color: #74654e;
+    background-color: #ffffff;
     border-radius: 5px;
 }
 header .LienSecondaire:visited{
-    color: rgb(70, 70, 70);
+    color: rgb(83, 83, 83);
 }
