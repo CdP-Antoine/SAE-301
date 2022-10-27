@@ -20,8 +20,6 @@
   margin-right: 10vw;
 
   padding: 4vw;
-
-  font-size: 2vw;
 }
 
 #intro a{
@@ -52,4 +50,5 @@
 
 #intro h2 {
   margin-bottom: 0;
+  margin-top:-2%;
 }
