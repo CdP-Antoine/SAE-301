@@ -1,0 +1,24 @@
+#slider-lieux .afficher {
+    display: block;
+
+}
+
+#slider-lieux .affimage {
+    display: flex;
+   
+}
+
+#slider-lieux h2{
+    text-align: center;
+    text-decoration: underline wheat 10px;
+}
+
+#slider-lieux img {
+    height: 25vh;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+#slider-lieux p {
+    margin: 30px;
+}
