@@ -1,9 +1,5 @@
 /* footer */
 
-footer h2 {
-    background-color: #ffffff;
-    border-radius: 20px;
-}
 /*Image du footer*/
 footer img {
     width: 15vw;
@@ -18,7 +14,7 @@ footer ul {
 
     background-image:url("../Illustrations/Commun-Aux-Pages/livre.jpg");
     background-size: 100%;    
-    border-radius: 30px 30px 0 0;
+    border-radius: 2.5vw 2.5vw 0 0;
 }
  
 footer a {
@@ -32,13 +28,13 @@ footer a:visited {
     color: black;
 }
 footer .logoFooter:hover {
-    background-color: #ffffff;
-    border-radius: 20px 20px 0 0;
+    background-color: #c2a0629a;
+    border-radius: 1.5vw;
 }
 footer .lienFooter {
-    padding: 5px;
+    padding: 3px;
 }
 footer .lienFooter:hover {
-    background-color: #ffffff;
+    background-color: #c2a0629a;
     border-radius: 5px;
 }
