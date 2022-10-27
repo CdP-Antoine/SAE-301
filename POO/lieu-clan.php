@@ -81,9 +81,9 @@ class LieuClan {
         $this->desc = $donnees["desc"];
         $this->titre = $donnees["titre"];
         if ($this->type == 0) {
-            move_uploaded_file($_FILES['img']['tmp_name'], anchored_link('SAE-301/Illustrations/Clans/').basename($_FILES['img']['name']));
+            move_uploaded_file($_FILES['img']['tmp_name'], anchored_link('Illustrations/Clans/').basename($_FILES['img']['name']));
         } else {
-            move_uploaded_file($_FILES['img']['tmp_name'], anchored_link('SAE-301/Illustrations/Lieux/').basename($_FILES['img']['name']));
+            move_uploaded_file($_FILES['img']['tmp_name'], anchored_link('Illustrations/Lieux/').basename($_FILES['img']['name']));
         }
         
     }
