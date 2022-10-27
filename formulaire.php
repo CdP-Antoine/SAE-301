@@ -44,15 +44,15 @@
 
 		<div>
 			<label for="nom">Nom *</label>
-			<input type="text" name="nom" placeholder="Gérard" required>
+			<input type="text" name="nom" placeholder="Gérard" required class="et1">
 		</div>
 		<div>
 			<label for="prenom">Prénom *</label>
-			<input type="text" name="prenom" placeholder="Dupuis" required>
+			<input type="text" name="prenom" placeholder="Dupuis" required class="et1">
 		</div>
 		<div>
 			<label for="mail">Mail *</label>
-			<input type="text" name="mail" placeholder="example@gmail.com" required>
+			<input type="text" name="mail" placeholder="example@gmail.com" required class="et1">
 		</div>
 
 		<button class="button_prev" id="1to0"> Etape précédente </button>
