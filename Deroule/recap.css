@@ -4,5 +4,16 @@
     background-color: wheat;
     text-align: center;
     border-radius: 10px;
-    margin: 1vmax;
+
+    padding: 4vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vw;
+}
+
+.titre {
+    margin-top: 0;
+}
+.planning {
+    width: 100%;
 }

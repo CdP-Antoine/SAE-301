@@ -17,8 +17,11 @@
 #factions-col {
     background-color: wheat;
     text-align: center;
-    margin: 20vh;
     border-radius: 30px;
+
+    margin-top: 10vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 #factions-col .flexClans {
@@ -37,7 +40,7 @@
 /* Responsive */
 #factions-col .mobile {
     display: flex;
-    padding: 5%;
+    padding: 4vw;
 }
 @media screen and (max-width: 500px) {
     #factions-col .mobile {
