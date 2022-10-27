@@ -6,12 +6,14 @@
 main {
     display:flex;
     justify-content: center;
-    padding : 3% 0;
+    padding : 2% 0;
     text-align: justify;
 }
 
 main ul>li{
-    margin-bottom: 20%;
+    margin-bottom: 15%;
+    font-family: Kingthings;
+    font-size: 1.5vmax;
 }
 
 main ul>li a {

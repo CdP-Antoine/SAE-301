@@ -23,20 +23,29 @@ window.addEventListener("load",() => {
     // ----- Boutons de passage à l'étape suivante 
     document.getElementById("0to1").addEventListener("click",(e) => {
         e.preventDefault() ;
+
         document.getElementById("etape0").style.display = "none" ;
         document.getElementById("etape1").style.display = "block" ;
     })
 
     document.getElementById("1to0").addEventListener("click",(e) => {
         e.preventDefault() ;
+
         document.getElementById("etape1").style.display = "none" ;
         document.getElementById("etape0").style.display = "block" ;
     })
 
     document.getElementById("1to2").addEventListener("click",(e) => {
         e.preventDefault() ;
-        document.getElementById("etape1").style.display = "none" ;
-        document.getElementById("etape2").style.display = "block" ;
+
+        $tabEt = document.getElementsByClassName("et1");
+
+        if ($tabEt[0].value != "" && $tabEt[1].value != "" && $tabEt[2].value != "") {
+            document.getElementById("etape1").style.display = "none" ;
+            document.getElementById("etape2").style.display = "block" ;
+        } else {
+            alert("Veuillez compléter tous les champs");
+        }
     })
 
     document.getElementById("2to1").addEventListener("click",(e) => {
@@ -47,8 +56,15 @@ window.addEventListener("load",() => {
 
     document.getElementById("2to3").addEventListener("click",(e) => {
         e.preventDefault() ;
-        document.getElementById("etape2").style.display = "none" ;
-        document.getElementById("etape3").style.display = "block" ;
+
+        $tabEt = document.getElementsByClassName("et2");
+
+        if ($tabEt[0].value != "" && $tabEt[1].value != "" && $tabEt[2].value != "") {
+            document.getElementById("etape2").style.display = "none" ;
+            document.getElementById("etape3").style.display = "block" ;
+        } else {
+            alert("Veuillez compléter tous les champs");
+        }
     })
 
     document.getElementById("3to2").addEventListener("click",(e) => {

@@ -42,10 +42,12 @@ class LieuClan {
     // ----- Zone Méthodes 
 
     public function Afficher(){
-        echo "<div>" ;
+        echo "<div class='afficher'>" ;
         echo "<h2>".$this->titre."</h2>" ;
-        echo "<img src='".anchored_link("SAE-301/Illustrations/".$this->img)."' alt=''>";
+        echo "<div class='affimage'>";
+        echo "<img src='".anchored_link("Illustrations/".$this->img)."' alt=''>";
         echo "<p>".$this->desc."</p>";
+        echo "</div>" ;
         echo "</div>" ;
     }
 
@@ -53,7 +55,7 @@ class LieuClan {
         echo '<form enctype="multipart/form-data" action="" method="post">';
         echo "<label for='id'>ID : </label><input type='number' value='".$this->id."' name='id' readonly><br>";
         echo "<label for='titre'>Titre : </label><input type='text' value='".$this->titre."' name='titre'><br>";
-        echo '<img src="'.anchored_link("SAE-301/Illustrations/".$this->img).'" alt=""><br>';
+        echo '<img src="'.anchored_link("Illustrations/".$this->img).'" alt=""><br>';
         echo '<input type="hidden" name="MAX_FILE_SIZE" value="300000" />';
         echo "<label for='img'>Changer l'image : </label><input type='file' name='img'><br>";
         echo "<label for='desc'> Description : </label><input type='text' value='".$this->desc."' name='desc'><br>";

@@ -2,28 +2,55 @@
 
 
 main {
-    background-color: #CBBF7A;
+    font-family: "Kingthings";
+    background-color: wheat;
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    margin: 20px;
-    padding: 5%;
+    margin: 2vw 10vw;
+    padding: 1vw 4vw;
     text-align: justify;
 
 }
 
-h2{
+h2 {
     text-align: center;
 }
-.lore{
-    font-family: "Kingthings";
+
+.lore {
+
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2vw;
-    width: 80vw;
-    padding: 2%;
     text-align: justify;
 }
+.callToSignUp{
+    font-size: 2vw;
+    text-align: center;
+}
 
+.buttonSign{
+    background-color:#CBBF7A;
+    width: 15vw;
+    margin: 20px auto;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid wheat;
+    padding: 14px;
+    color: #fff;
+    border-radius: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+    
+  }
 
+  .buttonSign:hover{
+    background: rgb(240, 213, 163);
+    transition: 200ms ease-out 100ms;  
+}
+a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s;
+}
