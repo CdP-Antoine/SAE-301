@@ -6,11 +6,14 @@
 </section>
 
 <section id="clans">
-	<?php
-  	foreach($listeClan as $i) {
-      	$i->Afficher() ;
-  	}
-  	?>
+	<div class="slider">
+	<h2> Les différents clans  </h2>
+		<?php
+		foreach($listeClan as $i) {
+			$i->Afficher() ;
+		}
+		?>
+	</div>
 </section>
 
 <section id="slider-lieux">
