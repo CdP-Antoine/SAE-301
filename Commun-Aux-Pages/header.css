@@ -44,7 +44,7 @@ header a:visited{
 /* Choix Principal */
 header .ChoixPrincipal {
     font-family: Kingthings;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
 
     line-height: 1.5vw;
@@ -78,3 +78,10 @@ header .LienSecondaire:hover {
 header .LienSecondaire:visited{
     color: rgb(83, 83, 83);
 }
+
+/* Test 
+1
+2 
+1 
+2 
+Test  */
