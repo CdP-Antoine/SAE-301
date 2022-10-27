@@ -18,7 +18,7 @@ header li {
 
 /* Liste Globale */
 header .ListeGlobale {
-    background-image:url("/SAE-301/Illustrations/livre.jpg");
+    background-image:url("../Illustrations/Commun-Aux-Pages/livre.jpg");
     background-size: 100%;
     display: flex;
 

@@ -10,12 +10,6 @@
     justify-content: center;
 }
 
-#attaque-chateau h2 {
-    background-color: wheat;
-    border-radius: 10px;
-    text-align: center;
-}
-
 #attaque-chateau .troislignes{
     display:flex;
     justify-content: space-evenly;
