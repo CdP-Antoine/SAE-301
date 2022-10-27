@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : jeu. 27 oct. 2022 à 14:09
+-- Généré le : jeu. 27 oct. 2022 à 16:25
 -- Version du serveur : 10.4.24-MariaDB
 -- Version de PHP : 8.1.6
 
@@ -39,10 +39,10 @@ CREATE TABLE `clan` (
 --
 
 INSERT INTO `clan` (`id_clan`, `titre`, `description`, `img`) VALUES
-(1, 'Clan du tonnerre', 'Le Clan du Tonnerre (  Angl.  ThunderClan ) est un des quatre Clans de chats sauvages de la forêt. Le premier chef et fondateur du Clan, Étoile du Tonnerre, a été baptisé ainsi en allusion au Chemin du Tonnerre, et, par extension, le Clan a été nommé ainsi.Un magnifique clan tah la guerre des clans ces livres sont trop biens jle jure même maintenant je peux chialer devant des lettres sur du papier', 'https://static.wikia.nocookie.net/lgdc/images/d/df/Clan_du_Tonnerre.jpg/revision/latest?cb=20131005203850&path-prefix=fr'),
-(2, 'Clan du vent', 'Le Clan du Vent ( Angl. WindClan ) est l\'un des quatre clans de chats dont l\'histoire est racontée dans la série La guerre des Clans. Leurs ancêtres appartiennent au Clan des Étoiles. Les chats du Clan du Vent aiment les grands espaces et vivent dans une lande où ils attrapent essentiellement des lièvres et des lapins.', 'https://static.wikia.nocookie.net/lgdc/images/b/b8/Clan_du_Vent.jpg/revision/latest?cb=20131116204927&path-prefix=fr'),
-(3, 'Clan de la rivière', 'Le Clan de la Rivière ( Angl. RiverClan ) est un des quatre clans de chats dont l\'histoire est racontée dans la série La guerre des Clans. Il a été fondé par Rivière. Leurs ancêtres appartiennent au Clan des Étoiles', 'https://static.wikia.nocookie.net/lgdc/images/e/e0/Clan_de_la_Rivi%C3%A8re.jpg/revision/latest?cb=20140826164128&path-prefix=fr'),
-(4, 'Clan de l\'ombre', 'Le Clan de l\'Ombre ( Angl. ShadowClan ) est un des quatre Clans de chats dont l\'histoire est racontée dans la série La guerre des Clans. Leur territoire est composé d\'une forêt de pins et de marécages. Les chats du Clan de l\'Ombre sont de bons chasseurs nocturnes.', 'https://static.wikia.nocookie.net/lgdc/images/5/57/Clan_de_l%27Ombre.jpg/revision/latest?cb=20131005203958&path-prefix=fr');
+(1, 'Clan Liostra', 'Regroupement des occupants de Lioussac et d\'Estrapade, ce clan réunit par affinité deux Isles aux valeurs semblables. Mélangez des gros lourdauds équipés de vos pires cauchemars, un manque conséquent de logique, et une barbarie renommée. Vous vous trouvez à Liostra. Faites gaffe à vos arrières.', 'Clans/carreliostra.png'),
+(2, 'Clan Viguera', 'Alliance entre les Isles de Miramande et de la Viguerie, cette faction est le résultat d\'une longue bonne entente entre les deux quartiers. Ses habitants sont intelligents et ont un bon sens de l\'observation, leur meilleure arme est la parole. Viguera est le clan de la culture, de la poésie et du bon sens.', 'Clans/carreviguera.png'),
+(3, 'Clan Paylen', 'Panaveyres et Papelengue se sont découvert lors d\'une quête commune pendant les tensions en ville. Ils fonctionnent désormais ensemble et compose Paylen. C\'est un clan stratège mais pataud, ils savent quoi faire mais ont souvent du mal à l\'exécuter. Ils sont auteur de l\'enlèvement de Lorin Valora (Femme du chef de la Liostra). Vous n\'êtes pas à l\'abris de leurs dagues, restez vigilant.', 'Clans/carrepaylen.png'),
+(4, 'Clan Morafen', 'Rassemblement entre Morafède et Garamentes, c\'est un clan composé suite à un accord avec d\'un côté, des forgerons, des armuriers, sans doute les meilleurs de la région, et de l\'autre côté, des commerçants pragmatiques et autoritaires. Leur but est de récupérer les clés de la ville pour remettre de l’ordre dans cette histoire.', 'Clans/carremorafen.png');
 
 -- --------------------------------------------------------
 
@@ -84,7 +84,10 @@ CREATE TABLE `event` (
 INSERT INTO `event` (`id_event`, `titre`, `description`, `info`, `id_lieu`) VALUES
 (1, 'L\'Assemblée', 'Rendez-vous mensuel réunissant tous les clans à chaque pleine lune. Une trêve temporaire est mise en place.', 'Le soir de la pleine lune, sur l\'île', 3),
 (2, 'Rendez-vous ds guérisseurs', 'Les guérisseurs de chaque clans se retrouvent pour partager des visions du Clan des Etoiles', 'Chaque demi-lunes, le soir à la source de Lune', 4),
-(3, 'Passage d\'apprenti à guerrier', 'Cérémonie officielle de clan où un apprenti obtient son nom de guerrirer', 'Sur le tas de roches, le soleil au zénith ', 1);
+(3, 'Passage d\'apprenti à guerrier', 'Cérémonie officielle de clan où un apprenti obtient son nom de guerrirer', 'Sur le tas de roches, le soleil au zénith ', 1),
+(4, 'oui', 'oui', 'oui', 7),
+(5, 'oui', 'oui', 'oui', 9),
+(6, 'oui', 'oui', 'oui', 9);
 
 -- --------------------------------------------------------
 
@@ -202,7 +205,7 @@ ALTER TABLE `clan_event`
 -- AUTO_INCREMENT pour la table `event`
 --
 ALTER TABLE `event`
-  MODIFY `id_event` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_event` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT pour la table `lieu`
