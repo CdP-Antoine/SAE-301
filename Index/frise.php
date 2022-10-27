@@ -4,15 +4,13 @@
 
 <div>
 
-<figure>
+    <figure>
 
-    <img src="Illustrations/Index/#" alt="">
+        <img src="Illustrations/Index/#" alt="">
 
-    <figcaption>
-
-    La frise chronologique pour comprendre l'histoire de la Guerre de l'Oiseau.
-
-    </figcaption>
-</figure>
+        <figcaption>
+            La frise chronologique pour comprendre l'histoire de la Guerre de l'Oiseau.
+        </figcaption>
+    </figure>
 
 </div>
