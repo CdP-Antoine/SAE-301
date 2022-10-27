@@ -1,8 +1,5 @@
 <?php
-require_once("lib/PHP-librairies/Gestion-URL/anchored_link.php");
-require_once("POO/client.php") ;
-require_once("POO/event.php") ;
-require_once("POO/lieu-clan.php") ;
+
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +14,7 @@ require_once("POO/lieu-clan.php") ;
 	<link href="Formulaire/general.css" rel="stylesheet">
 	<link href="global.css" rel="stylesheet">
 
-	<script src="Formulaire/scriptForm.js" defer></script>
+	<script src="Formulaire/scrazeiptForm.js" defer></script>
 
 
 </head>
@@ -29,7 +26,7 @@ require_once("POO/lieu-clan.php") ;
 
 <main>
 
-<form action="" method="POST">
+<form action="traitement.php" method="POST">
 	<section class="box" id="etape0">
 		<h2> Pour commencer l'inscription </h2>
 		<p> Nous vous demandons de : </p>
@@ -82,7 +79,7 @@ require_once("POO/lieu-clan.php") ;
 						Êtes-vous :
 					</p>
 					<div>
-						<input type="radio" name="pro" value="0" id="amateur" required>
+						<input type="radio" name="pro" value="0" id="amateur" selected required>
 						<label for="pro">Amateur</label>
 					</div>
 					<div>
