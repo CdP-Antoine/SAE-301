@@ -1,24 +1,54 @@
-#slider-lieux .afficher {
-    display: block;
-
+p {
+    font-size: 1vw;
 }
 
-#slider-lieux .affimage {
-    display: flex;
-   
+#slider-lieux,#clans {
+    display : flex;
+    justify-content: center;
 }
 
-#slider-lieux h2{
+.afficher {
+    width : 50vw
+}
+#clans {
+    padding-top: 100px;
+}
+
+:is(#slider-lieux,#clans) h2{
     text-align: center;
     text-decoration: underline wheat 5px;
 }
 
-#slider-lieux img {
-    height: 25vh;
-    margin: 30px;
+:is(#slider-lieux,#clans) h3{
+    text-decoration: underline wheat 3px;
+    text-align: center;
+}
+
+:is(#slider-lieux,#clans) img {
+    width: 20vw;
+    margin: 0 30px;
     border-radius: 10px;
+}
+
+.slider{
+    margin-bottom: 3%;
 }
 
 #slider-lieux p {
     margin: 30px;
+    text-align: justify;
+}
+
+/* Mise au centre de l'image et du texte*/
+
+.affimage{
+    display: flex;
+    justify-content: center;
+}
+
+/* Mise au centre du texte à coté de l'image*/
+.texte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -5,7 +5,8 @@
     background-color: WHITE;
     font-size: 3vmax;
     border-radius: 20px;
-    margin: 20vw;
+    margin: 10vw;
+    padding : 0 1vw;
 }
 
 #accueil {
@@ -15,7 +16,7 @@
     justify-content: center;
     align-items: center;
 
-    background: url(../Illustrations/Index/chevalier.jpg);
+    background: url(../Illustrations/Index/banniere.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-origin: center;
@@ -23,4 +24,7 @@
 
     height: auto;
     width: auto;
+
+    position : relative;
+    z-index: 10;
 }

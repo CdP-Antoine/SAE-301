@@ -22,7 +22,9 @@
 <header>
 	<?php require_once("Commun-Aux-Pages/header.php") ;?>
 </header>
-
+<div id="remonter">
+	<a href="#"><img src="Illustrations/Commun-Aux-Pages/fleche.png" alt="Remonter en haut de page" ></a>
+</div>
 <main>
 	<div>
 		<h2>Plan du site</h2>

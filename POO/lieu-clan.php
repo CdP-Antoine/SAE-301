@@ -43,12 +43,14 @@ class LieuClan {
 
     public function Afficher(){
         echo "<div class='afficher'>" ;
-        echo "<h2>".$this->titre."</h2>" ;
+        echo "<h3>".$this->titre."</h3>" ;
         echo "<div class='affimage'>";
         echo "<img src='".anchored_link("Illustrations/".$this->img)."' alt=''>";
+        echo "<div class='texte'>";
         echo "<p>".$this->desc."</p>";
-        echo "</div>" ;
-        echo "</div>" ;
+        echo "</div>";
+        echo "</div>";
+        echo "</div>";
     }
 
     public function AfficherAdmin() {
@@ -81,9 +83,9 @@ class LieuClan {
         $this->desc = $donnees["desc"];
         $this->titre = $donnees["titre"];
         if ($this->type == 0) {
-            move_uploaded_file($_FILES['img']['tmp_name'], anchored_link('SAE-301/Illustrations/Clans/').basename($_FILES['img']['name']));
+            move_uploaded_file($_FILES['img']['tmp_name'], anchored_link('Illustrations/Clans/').basename($_FILES['img']['name']));
         } else {
-            move_uploaded_file($_FILES['img']['tmp_name'], anchored_link('SAE-301/Illustrations/Lieux/').basename($_FILES['img']['name']));
+            move_uploaded_file($_FILES['img']['tmp_name'], anchored_link('Illustrations/Lieux/').basename($_FILES['img']['name']));
         }
         
     }

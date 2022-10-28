@@ -10,7 +10,7 @@
             <a class="LienPrincipal" href="description.php">Détails</a><br>
             <a class="LienSecondaire" href="description.php#cestQuoiLeGn">Histoire</a><br>
             <a class="LienSecondaire" href="description.php#clans">Les 4 clans</a><br>
-            <a class="LienSecondaire" href="description.php#lieux">Les 12 Lieux</a>
+            <a class="LienSecondaire" href="description.php#slider-lieux">Les 12 Lieux</a>
         </li>
 
         <!-- Menu Déroulé -->

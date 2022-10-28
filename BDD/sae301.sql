@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : jeu. 27 oct. 2022 à 14:09
+-- Généré le : ven. 28 oct. 2022 à 09:16
 -- Version du serveur : 10.4.24-MariaDB
 -- Version de PHP : 8.1.6
 
@@ -39,10 +39,10 @@ CREATE TABLE `clan` (
 --
 
 INSERT INTO `clan` (`id_clan`, `titre`, `description`, `img`) VALUES
-(1, 'Clan du tonnerre', 'Le Clan du Tonnerre (  Angl.  ThunderClan ) est un des quatre Clans de chats sauvages de la forêt. Le premier chef et fondateur du Clan, Étoile du Tonnerre, a été baptisé ainsi en allusion au Chemin du Tonnerre, et, par extension, le Clan a été nommé ainsi.Un magnifique clan tah la guerre des clans ces livres sont trop biens jle jure même maintenant je peux chialer devant des lettres sur du papier', 'https://static.wikia.nocookie.net/lgdc/images/d/df/Clan_du_Tonnerre.jpg/revision/latest?cb=20131005203850&path-prefix=fr'),
-(2, 'Clan du vent', 'Le Clan du Vent ( Angl. WindClan ) est l\'un des quatre clans de chats dont l\'histoire est racontée dans la série La guerre des Clans. Leurs ancêtres appartiennent au Clan des Étoiles. Les chats du Clan du Vent aiment les grands espaces et vivent dans une lande où ils attrapent essentiellement des lièvres et des lapins.', 'https://static.wikia.nocookie.net/lgdc/images/b/b8/Clan_du_Vent.jpg/revision/latest?cb=20131116204927&path-prefix=fr'),
-(3, 'Clan de la rivière', 'Le Clan de la Rivière ( Angl. RiverClan ) est un des quatre clans de chats dont l\'histoire est racontée dans la série La guerre des Clans. Il a été fondé par Rivière. Leurs ancêtres appartiennent au Clan des Étoiles', 'https://static.wikia.nocookie.net/lgdc/images/e/e0/Clan_de_la_Rivi%C3%A8re.jpg/revision/latest?cb=20140826164128&path-prefix=fr'),
-(4, 'Clan de l\'ombre', 'Le Clan de l\'Ombre ( Angl. ShadowClan ) est un des quatre Clans de chats dont l\'histoire est racontée dans la série La guerre des Clans. Leur territoire est composé d\'une forêt de pins et de marécages. Les chats du Clan de l\'Ombre sont de bons chasseurs nocturnes.', 'https://static.wikia.nocookie.net/lgdc/images/5/57/Clan_de_l%27Ombre.jpg/revision/latest?cb=20131005203958&path-prefix=fr');
+(1, 'Clan Liostra', 'Regroupement des occupants de Lioussac et d\'Estrapade, ce clan réunit par affinité deux Isles aux valeurs semblables. Mélangez des gros lourdauds équipés de vos pires cauchemars, un manque conséquent de logique, et une barbarie renommée. Vous vous trouvez à Liostra. Faites gaffe à vos arrières.', 'Clans/carreliostra.png'),
+(2, 'Clan Viguera', 'Alliance entre les Isles de Miramande et de la Viguerie, cette faction est le résultat d\'une longue bonne entente entre les deux quartiers. Ses habitants sont intelligents et ont un bon sens de l\'observation, leur meilleure arme est la parole. Viguera est le clan de la culture, de la poésie et du bon sens.', 'Clans/carreviguera.png'),
+(3, 'Clan Paylen', 'Panaveyres et Papelengue se sont découvert lors d\'une quête commune pendant les tensions en ville. Ils fonctionnent désormais ensemble et compose Paylen. C\'est un clan stratège mais pataud, ils savent quoi faire mais ont souvent du mal à l\'exécuter. Ils sont auteur de l\'enlèvement de Lorin Valora (Femme du chef de la Liostra). Vous n\'êtes pas à l\'abris de leurs dagues, restez vigilant.', 'Clans/carrepaylen.png'),
+(4, 'Clan Morafen', 'Rassemblement entre Morafède et Garamentes, c\'est un clan composé suite à un accord avec d\'un côté, des forgerons, des armuriers, sans doute les meilleurs de la région, et de l\'autre côté, des commerçants pragmatiques et autoritaires. Leur but est de récupérer les clés de la ville pour remettre de l’ordre dans cette histoire.', 'Clans/carremorafen.png');
 
 -- --------------------------------------------------------
 
@@ -61,7 +61,25 @@ CREATE TABLE `clan_event` (
 --
 
 INSERT INTO `clan_event` (`id_clanevent`, `id_clan`, `id_event`) VALUES
-(1, 1, 3);
+(10, 2, 2),
+(11, 4, 2),
+(12, 1, 1),
+(13, 3, 1),
+(14, 1, 3),
+(15, 2, 3),
+(16, 3, 3),
+(17, 4, 3),
+(18, 1, 4),
+(19, 3, 4),
+(20, 1, 5),
+(21, 2, 5),
+(22, 4, 5),
+(23, 2, 6),
+(24, 4, 6),
+(25, 1, 7),
+(26, 2, 7),
+(27, 3, 7),
+(28, 4, 7);
 
 -- --------------------------------------------------------
 
@@ -82,9 +100,13 @@ CREATE TABLE `event` (
 --
 
 INSERT INTO `event` (`id_event`, `titre`, `description`, `info`, `id_lieu`) VALUES
-(1, 'L\'Assemblée', 'Rendez-vous mensuel réunissant tous les clans à chaque pleine lune. Une trêve temporaire est mise en place.', 'Le soir de la pleine lune, sur l\'île', 3),
-(2, 'Rendez-vous ds guérisseurs', 'Les guérisseurs de chaque clans se retrouvent pour partager des visions du Clan des Etoiles', 'Chaque demi-lunes, le soir à la source de Lune', 4),
-(3, 'Passage d\'apprenti à guerrier', 'Cérémonie officielle de clan où un apprenti obtient son nom de guerrirer', 'Sur le tas de roches, le soleil au zénith ', 1);
+(1, 'Bataille du Jardin', 'Après le kidnapping de la femme du chef du clan Paylen par les Viguera, les 2 clans logeant tous deux d’un côté du jardin Henri Vinay, les Paylens lancent un assaut où seul la rage de vaincre se fait ressentir. Qui sortira vainqueur de cet affrontement sanglant et qu’elles en seront les conséquences ? ', 'Évènement Principal : La bataille aura lieu Vendredi, de 11h à 13h.', 6),
+(2, 'Escorte à la Cathédrale', 'Le clan Liostra a mis la main sur Fjorsën Ivar, détenteur des clés de la ville mais il refuse de dire où il les a cachés. Dans un ultime espoir avant une potentielle torture, il décide d’entreprendre au plus vite la route de la cathédrale pour l’emmener devant un prêtre qui saura peut-être trouver les mots pour le convaincre. Mais le clan Morafen a eu vent de cette escorte et va tenter de les intercepter pour récupérer de gré ou du force Mr Ivar et sa précieuse information.', 'Évènement Principal : l\'escorte débutera Samedi à 14h.', 7),
+(3, 'Bataille Finale', 'Au cours du week-end, de nombreux évènements vont avoir lieu et du dénouement de ceux-ci résulteront les enjeux de cette bataille. D’autant plus que juste avant, des actes de vandalisme ont été effectués à l’encontre de certains clans et certain réclame justice une bonne fois pour toute. Le clan qui en sortira vainqueur reprendra le contrôle des clés de la ville et nommera son nouveau Roi. ', 'Évènement Principal : Cette bataille finale aura lieu Dimanche à partir de 16h.', 5),
+(4, 'Libération des Prisonniers', 'Après la bataille du jardin entre les clans Viguera et Paylen, le perdant est amputé de plusieurs de ses membres qui doivent être libéré pour garder un nombre de soldat décent dans les rangs. Y arriveront-ils sans déclencher une autre bataille ?', 'Quête Secondaire : L\'opération débutera Vendredi, juste après la Bataille du Jardin.', 4),
+(5, 'Sabotage', 'Les Morafen n’ont pas aimé que l’un des clan établis dans le Jardin prenne de la puissance et de l’assurance car ils pourraient maintenant menacer le reste de la ville. Ils décident alors en pleine nuit d’aller au cœur de la base du gagnant afin de détruire les armes et équipements de ces derniers afin de retrouver une équité de puissance entre les clans. ', 'Quête Secondaire : Le sabotage aura lieu dans la nuit de Vendredi à Samedi, à partir de minuit.', 1),
+(6, 'Espionnage', 'Les Morafens étant beaucoup trop discrets au gout du clan Liostra, ces derniers lance une opération d’espionnage directement dans leur base en fin de journée afin de voir ce qu’ils préparent. ', 'Quête Secondaire : L\'opération débutera Samedi soir à 20h.', 3),
+(7, 'Vandalisme', 'Au même moment, les clans établis dans le jardin Henri Vinay décident d’aller affaiblir mentalement les clans situés en ville en plus de faire passer un message agressif à ces derniers pour ne plus qu’ils s’approchent de leurs bases. Juste après midi, ils partent donc effectuer toute sortent d’actes de vandalisme près, très près, voire dans les 2 camps de Liostra et de Morafen.', 'Quête Secondaire : Le vandalisme débutera Dimanche à midi. ', 2);
 
 -- --------------------------------------------------------
 
@@ -196,13 +218,13 @@ ALTER TABLE `clan`
 -- AUTO_INCREMENT pour la table `clan_event`
 --
 ALTER TABLE `clan_event`
-  MODIFY `id_clanevent` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_clanevent` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT pour la table `event`
 --
 ALTER TABLE `event`
-  MODIFY `id_event` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_event` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT pour la table `lieu`

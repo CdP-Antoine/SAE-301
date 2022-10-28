@@ -1,9 +1,10 @@
 /* Fichier Général Formulaire */
 
-@import url("../Commun-Aux-Pages/header.css") ;
-@import url("../Commun-Aux-Pages/footer.css") ;
+@import url("../Commun-Aux-Pages/header.css");
+@import url("../Commun-Aux-Pages/footer.css");
 
-@import url("content.css") ;
+@import url("content.css");
+@import url("../Index/slider-lieux.css");
 
 main {
 
