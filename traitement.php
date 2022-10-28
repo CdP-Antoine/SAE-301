@@ -28,7 +28,7 @@ if (isset($_POST["nom"])) {
 
 	<link href="Formulaire/general.css" rel="stylesheet">
 	<link href="global.css" rel="stylesheet">
-
+    <link href="traitements.css" rel="stylesheet">
 	
 
 
@@ -44,13 +44,17 @@ if (isset($_POST["nom"])) {
         <?php
         if ($client->Enregistrer()) {
             echo "<h2> Inscription réussie </h2>" ;
+            echo "<div>";
             echo "<a href='formulaire.php'> Inscrire une nouvelle personne </a>";
             echo '<a href="index.php"> Revenir à l&apos;accueil </a>';
+            echo "</div>";
         } else {
             echo "<h2> Une erreur est survenue </h2>" ;
-            echo "<p> Votre adresse mail a certainement été déjà utilisée. Si le problème persiste, veuillez contacter le support </p>";
+            echo "<p> Votre adresse mail a certainement été déjà utilisée. Si le problème persiste, veuillez contacter le support. </p>";
+            echo "<div>";
             echo "<a href='formulaire.php'> Revenir au formulaire </a>";
             echo '<a href="index.php"> Revenir à l&apos;accueil </a>';
+            echo "</div>";
         }
 
         ?>
