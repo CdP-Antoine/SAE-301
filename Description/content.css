@@ -36,14 +36,13 @@ h2 {
     border-radius: 15px;
     transition: 0.2s;
     cursor: pointer;
-    
-  }
+}
 
-  .buttonSign:hover{
+.buttonSign:hover{
     background: rgb(240, 213, 163);
     transition: 200ms ease-out 100ms;  
 }
-a{
+a {
     text-decoration: none;
     color: #000;
     transition: 0.2s;
