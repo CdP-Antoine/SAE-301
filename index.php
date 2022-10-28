@@ -26,7 +26,6 @@ foreach($tableau as $i) {
 	<link href="Index/general.css" rel="stylesheet">
 	<link href="global.css" rel="stylesheet">
 
-	<script src="script.js"></script>
 </head>
 <body>
 

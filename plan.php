@@ -13,8 +13,6 @@
 	<link href="Plan/general.css" rel="stylesheet">
 	<link href="global.css" rel="stylesheet">
 
-	<script src="script.js"></script>
-
 
 </head>
 <body>
