@@ -57,14 +57,8 @@ window.addEventListener("load",() => {
     document.getElementById("2to3").addEventListener("click",(e) => {
         e.preventDefault() ;
 
-        $tabEt = document.getElementsByClassName("et2");
-
-        if ($tabEt[0].value != "" && $tabEt[1].value != "" && $tabEt[2].value != "") {
-            document.getElementById("etape2").style.display = "none" ;
-            document.getElementById("etape3").style.display = "block" ;
-        } else {
-            alert("Veuillez compléter tous les champs");
-        }
+        document.getElementById("etape2").style.display = "none" ;
+        document.getElementById("etape3").style.display = "block" ;
     })
 
     document.getElementById("3to2").addEventListener("click",(e) => {
