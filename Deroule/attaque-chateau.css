@@ -4,23 +4,33 @@
 /* Mise en page globale*/
 #attaque-chateau>div{
     width: 70vw;
+
 }
 #attaque-chateau {
     display: flex;
     justify-content: center;
+
+}
+
+#attaque-chateau h2, h3{
+    text-decoration: underline wheat 5px;
+
 }
 
 #attaque-chateau .troislignes{
     display:flex;
     justify-content: space-evenly;
+
 }
 
 #attaque-chateau .troislignes>div{
     width: 25%;
+
 }
 /* Liste*/
 #attaque-chateau ul li{
     padding-bottom: 2%;
+    
 }
 
 
@@ -28,6 +38,7 @@
 /*Noir et blanc quand le clan n'est pas là*/
 #attaque-chateau .paspresent{
     filter: grayscale(10);
+
 }
 
 /*Images*/
