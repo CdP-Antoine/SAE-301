@@ -12,7 +12,7 @@
 
 }
 
-#attaque-chateau h2, h3{
+#attaque-chateau h2 {
     text-decoration: underline wheat 5px;
 
 }
@@ -45,6 +45,7 @@
 #attaque-chateau img{
     width: 25%;
     margin:10%;
+    border-radius: 15px;
 }
 #attaque-chateau .lieu{
     width:100%;

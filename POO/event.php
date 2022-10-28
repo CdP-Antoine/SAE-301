@@ -70,7 +70,7 @@ class Event {
 
                 <div>   <!--2eme bloc : lieu/image -->
                     <h3>LIEU :</h3>
-                    <img src="'.$this->lieu["img"].'" class="lieu">
+                    <img src="'.anchored_link("Illustrations/".$this->lieu["img"]).'" class="lieu">
                 </div>
 
                 <div> <!--3eme bloc : Clans -->
