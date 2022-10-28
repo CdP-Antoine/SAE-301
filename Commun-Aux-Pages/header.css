@@ -79,9 +79,12 @@ header .LienSecondaire:visited{
     color: rgb(83, 83, 83);
 }
 
-/* Test 
-1
-2 
-1 
-2 
-Test  */
+/* Responsive */
+@media screen and (max-width: 900px) {
+    header .LienSecondaire {
+        display: none;
+    }
+    header .ticket {
+        display: none;
+    }
+}
