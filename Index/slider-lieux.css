@@ -11,7 +11,7 @@ p {
     width : 50vw
 }
 #clans {
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 :is(#slider-lieux,#clans) h2{
@@ -26,11 +26,11 @@ p {
 
 :is(#slider-lieux,#clans) img {
     width: 20vw;
-    margin: 0 30px;
     border-radius: 10px;
+    margin-left: 0;
 }
 
-.slider{
+.slider {
     margin-bottom: 3%;
 }
 
@@ -39,6 +39,13 @@ p {
     text-align: justify;
 }
 
+.rejoignezFaction {
+    font-size: 2vw;
+    margin-top: 0;
+}
+.cAvous {
+    margin-bottom: 0;
+}
 /* Mise au centre de l'image et du texte*/
 
 .affimage{
@@ -59,7 +66,12 @@ p {
         margin: 0;
         font-size: 2vw;
     }
+    #clan .texte p {
+        margin: 0;
+        font-size: 2vw;
+    }
     #slider-lieux img {
         margin-left: 0;
+        margin-right: 1vw;
     }
 }
