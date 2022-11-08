@@ -9,12 +9,20 @@ $event = new Event(3) ;
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<title> Déroulé de l'évènement | La Guerre de l'Oiseau </title>
 
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Déroulé et explication des événements composant la Guerre de l'Oiseau">
+	<meta name="author" content="Agence Plumeuh">
+	<meta property="og:title" content="Déroulé de l'événement"/>
+	<meta property="og:type" content="event"/>
+	<meta property="og:url" content="http://guerreoiseau.mmi-lepuy.fr/deroule.php"/>
+	<meta property="og:image" content="Illustrations/Commun-Aux-Pages/favicon.png" />
+	<meta property="og:locale" content="fr_FR"/>
+	<meta property="og:site_name" content="La Guerre de l'Oiseau"/>
+
 	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/favicon.png"/>
 	<link href="Deroule/general.css" rel="stylesheet">
 	<link href="Commun-Aux-Pages/header.css" rel="stylesheet">
