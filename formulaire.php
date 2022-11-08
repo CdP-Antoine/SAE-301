@@ -3,14 +3,21 @@
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<title> Inscription | La Guerre de l'Oiseau </title>
 
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/favicon.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Formulaire de réservation pour participer à l'événement de la Guerre de l'Oiseau">
+	<meta name="author" content="Agence Plumeuh">
+	<meta property="og:locale" content="fr_FR"/>
+	<meta property="og:type" content="event"/>
+	<meta property="og:url" content="http://guerreoiseau.mmi-lepuy.fr/formulaire.php"/>
+	<meta property="og:image" content="Illustrations/Commun-Aux-Pages/favicon.png" />
+	<meta property="og:title" content="Inscriptions"/>
+	<meta property="og:site_name" content="La Guerre de l'Oiseau"/>
 
+	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/favicon.png"/>
 	<link href="Formulaire/general.css" rel="stylesheet">
 	<link href="global.css" rel="stylesheet">
 
