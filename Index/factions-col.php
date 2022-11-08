@@ -9,13 +9,13 @@
 
         <!-- Partie Clan 1 -->
         <div class="clan">
-            <img class="photoGens" src="Illustrations/Index/viguera2.jpg">
+            <img class="photoGens" src="Illustrations/Index/viguera2.jpg" alt="Clan Viguera">
             <h3>Viguera</h3>
         </div>
 
         <!-- Partie Clan 2 -->
         <div class="clan">
-            <img class="photoGens" src="Illustrations/Index/liostra2.jpg">
+            <img class="photoGens" src="Illustrations/Index/liostra2.jpg" alt="Clan Liostra">
             <h3>Liostra</h3>
         </div>
 
@@ -27,13 +27,13 @@
 
         <!-- Partie Clan 3 -->
         <div class="clan">
-            <img class="photoGens" src="Illustrations/Index/paylen2.jpg">
+            <img class="photoGens" src="Illustrations/Index/paylen2.jpg" alt="Clan Paylen">
             <h3>Paylen</h3>
         </div>
 
         <!-- Partie Clan 4 -->
         <div class="clan">
-            <img class="photoGens" src="Illustrations/Index/morafen2.jpg">
+            <img class="photoGens" src="Illustrations/Index/morafen2.jpg" alt="Clan Morafen">
             <h3>Morafen</h3>
         </div>
 
