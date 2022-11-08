@@ -87,4 +87,8 @@ header .LienSecondaire:visited{
     header .ticket {
         display: none;
     }
+    header .LienPrincipal {
+        position: relative;
+        top: 1.5vw;
+    }
 }
