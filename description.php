@@ -24,17 +24,25 @@ foreach($tableau as $i) {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<title> L'Histoire | La Guerre de l'Oiseau </title>
 
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Les descriptions du site de la Guerre de l'Oiseau.">
+	<meta name="author" content="Agence Plumeuh">
+
+	<meta property="og:locale" content="fr_FR"/>
+	<meta property="og:type" content="event"/>
+	<meta property="og:url" content="http://guerreoiseau.mmi-lepuy.fr/description.php"/>
+	<meta property="og:image" content="Illustrations/Commun-Aux-Pages/favicon.png" />
+	<meta property="og:title" content="L'Histoire"/>
+	<meta property="og:site_name" content="La Guerre de l'Oiseau"/>
+
 	<link rel="icon" type="image/x-icon" href="Illustrations/Commun-Aux-Pages/favicon.png"/>
 	<link href="Description/general.css" rel="stylesheet">
 	<link href="global.css" rel="stylesheet">
-
-	<script src="script.js"></script>
 
 
 </head>
