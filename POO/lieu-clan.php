@@ -45,7 +45,7 @@ class LieuClan {
         echo "<div class='afficher'>" ;
         echo "<h3>".$this->titre."</h3>" ;
         echo "<div class='affimage'>";
-        echo "<img src='".anchored_link("Illustrations/".$this->img)."' alt=''>";
+        echo "<img src='".anchored_link("Illustrations/".$this->img)."' alt='Photo ".$this->titre."'>";
         echo "<div class='texte'>";
         echo "<p>".$this->desc."</p>";
         echo "</div>";

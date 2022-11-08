@@ -8,3 +8,7 @@ Accès à l'interface Admin :
 dans l'URL, ajouter "Admin/conn.php"
    - pseudo = "admin"
    - mdp = "1234"
+   
+Lien du site : guerreoiseau.mmi-lepuy.fr
+   - login = "lolacourbon_guerre"
+   - mdp = "Guerre2022"

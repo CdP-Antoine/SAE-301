@@ -7,6 +7,7 @@
 @import url("recap.css");
 @import url("petits.css");
 
-main {
-
+main h1 {
+    text-align: center;
+    text-decoration: underline wheat 5px;
 }

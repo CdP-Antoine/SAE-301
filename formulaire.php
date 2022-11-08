@@ -39,13 +39,13 @@
 	<section class="box" id="etape0">
 		<h2> Pour commencer l'inscription </h2>
 		<p> Nous vous demandons de : </p>
-		<ul>
+		<ul class="listeStart">
 			<li> Si vous êtes un professionnel, de préparer votre attestation d'adhésion </li>
 			<li> Lire et accepter les conditions d'utilisation </li>
 			<li> Lire et accepter les conditions d'accès à l'événement </li>
 		</ul>
 
-		<button id="0to1"> Commencer l'inscription </button>
+		<div class="flexBoutonStart"><button class="boutonStart" id="0to1"> Commencer l'inscription </button></div>
 	</section>
 
 	<section class="box" id="etape1">
