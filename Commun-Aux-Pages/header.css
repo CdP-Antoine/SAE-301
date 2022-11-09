@@ -74,6 +74,7 @@ header .LienSecondaire {
 header .LienSecondaire:hover {
     background-color: #f7ddad65;
     border-radius: 5px;
+    text-decoration: underline;
 }
 header .LienSecondaire:visited{
     color: rgb(83, 83, 83);
