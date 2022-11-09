@@ -46,11 +46,3 @@ a {
     color: #000;
     transition: 0.2s;
 }
-@media screen and (max-width: 900px) {
-    section.main p{
-        font-size: 2vmax;
-    }
-    main {
-        margin:0;
-    }
-    }
