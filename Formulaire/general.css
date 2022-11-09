@@ -17,7 +17,9 @@ main>section {
 main form button {
     display: none
 }
-
+li{
+    font-family: Kingthings;
+}
 
 main .blason {
     height: 10vmax;
@@ -57,6 +59,9 @@ main .listeblasons {
     color: #000000;
     font-weight: 500;
 }
+label{
+    font-family: Kingthings;
+}
 
 .box input[type="text"] {
     border: 0;
@@ -71,6 +76,7 @@ main .listeblasons {
     color: rgb(17, 17, 17);
     border-radius: 15px;
     transition: 0.25s;
+    font-family: Kingthings;
 }
 
 .box input[type="text"]:focus,
@@ -110,6 +116,7 @@ main .listeblasons {
     border-radius: 15px;
     transition: 0.2s;
     cursor: pointer;
+    font-family: Kingthings;
 }
 .button_next{
     background-color:#5d996c;
@@ -121,6 +128,7 @@ main .listeblasons {
     border-radius: 15px;
     transition: 0.2s;
     cursor: pointer;
+    font-family: Kingthings;
     
 }
 .button_prev:hover{
@@ -157,14 +165,21 @@ main .listeblasons {
     transition: all 0.5s;
     cursor: pointer;
     margin: 0;
+    font-family: Kingthings;
 }
 
 .flexBoutonStart {
     display: flex;
     justify-content: center;
+    font-family: Kingthings;
 }
   
 .boutonStart:hover {
     background-color: rgb(231, 231, 231);
     color:black;
+}
+.boutonEnd{
+    display: flex;
+    justify-content: center;
+    font-family: Kingthings;
 }

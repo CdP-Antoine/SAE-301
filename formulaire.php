@@ -134,7 +134,7 @@
 			</div>
 		</div>
 		<button class="button_prev" id="3to2"> Etape précédente </button>
-		<input type="submit" value="Terminer l'inscription">
+		<input class="boutonEnd"type="submit" value="Terminer l'inscription">
 	</section>
 </form>
 
