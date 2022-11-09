@@ -1,41 +1,65 @@
+
 /* footer */
+footer {
+    background-image:url("../Illustrations/Commun-Aux-Pages/livre2.jpg");
+    background-size: 100%;    
+    border-radius: 2.5vw 2.5vw 0 0;
+}
 
 /*Image du footer*/
-footer img {
+footer > ul img {
     width: 15vw;
 }
 
-footer ul {
+footer > ul {
     display: flex;
     list-style: none; /* enlever les puces */
     margin: 0; /* enlever les marges automatiques */
     padding: 0;
     justify-content: space-evenly;
     align-items: center;
-
-    background-image:url("../Illustrations/Commun-Aux-Pages/livre2.jpg");
-    background-size: 100%;    
-    border-radius: 2.5vw 2.5vw 0 0;
 }
  
-footer a {
+footer > ul a {
     color: black;
     font-size: 1vw;
     text-decoration: none;
     font-family: Kingthings;
 
 }
-footer a:visited {
+footer > ul a:visited {
     color: black;
 }
-footer .logoFooter:hover {
+footer > ul .logoFooter:hover {
     background-color: #c2a0629a;
     border-radius: 1.5vw;
 }
-footer .lienFooter {
+footer > ul .lienFooter {
     padding: 3px;
 }
-footer .lienFooter:hover {
+footer > ul .lienFooter:hover {
     background-color: #c2a0629a;
     border-radius: 5px;
+}
+
+footer > div ul {
+    display: flex;
+    list-style: none; /* enlever les puces */
+}
+
+
+/* Sponsors */
+footer > div img {
+    height: 4vw;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+footer .flexSponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
 }
