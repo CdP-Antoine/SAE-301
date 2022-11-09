@@ -46,6 +46,7 @@
 
 #intro .enSavoirPlus{
   margin-top: 1vw;
+  font-family: Kingthings;
 }
 
 #intro h2 {
@@ -54,8 +55,9 @@
   margin-top:-2%;
 }
 
+
 @media screen and (max-width: 900px) {
   #intro p {
-      font-size: 2vw;
+      font-size: 2vmax;
   }
 }
