@@ -5,10 +5,17 @@
 }
 
 /*Nom de clans*/
-#factions-col h3{
+#factions-col a{
     color:rgb(110, 54, 9);
     font-size: 2.5vmax;
     margin-bottom: -2%;
+    padding: 10px;
+    text-decoration: none;
+}
+#factions-col a:hover{
+    background-color: #c2a0629a;
+    border-radius: 15px;
+    text-decoration: underline 2px;
 }
 
 /* Index > factions-col */
