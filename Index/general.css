@@ -24,3 +24,11 @@ main .imageintro>img{
     width:7vw;
     margin-top: 2%;
 }
+@media screen and (max-width: 900px) {
+    section.main p{
+        font-size: 2vmax;
+    }
+    main {
+        margin:0;
+    }
+    }
