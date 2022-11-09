@@ -64,11 +64,19 @@ p {
 @media screen and (max-width: 900px) {
     #slider-lieux p {
         margin: 0;
-        font-size: 2vw;
+        font-size: 3vmax;
+    }
+    #slider-lieux h3 {
+        margin:1vw;
+        font-size: 3vmax;
+    }
+    #slider-lieux h2{
+        margin: 3vw;
+        font-size: 5vmax;
     }
     #clan .texte p {
         margin: 0;
-        font-size: 2vw;
+        font-size: 3vmax;
     }
     #slider-lieux img {
         margin-left: 0;
