@@ -9,7 +9,7 @@
 </ul>
 
 <div>
-    <ul>
+    <ul class="flexSponsors">
         <li><a target="_blank" href="https://www.auvergnerhonealpes.fr/"><img src="Illustrations/Sponsor/region-auvergne-rhone-alpe.jpg" /></a></li>
         <li><a target="_blank" href="http://www.hauteloire.fr/"><img src="Illustrations/Sponsor/hauteloire.jpg" /></a></li>
         <li><a target="_blank" href="http://www.agglo-lepuyenvelay.fr/"><img src="Illustrations/Sponsor/agglopuyenvelay.jpg" /></a></li>
